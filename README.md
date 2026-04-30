@@ -108,10 +108,13 @@ research aid, not legal advice.
   been working to convert into a fully for-profit Public Benefit
   Corporation, removing the non-profit's controlling stake. Multiple
   co-founders, employees, and the November 2023 board crisis cited
-  the structural drift between mission and incentive. **The ToS
-  matters less than what happens to the organisation that publishes
-  it.** When the corporate form changes this fundamentally, expect
-  the operating defaults to follow. Receipts:
+  the structural drift between mission and incentive.
+
+  **If you can still trust a company that pivoted from non-profit to
+  for-profit on its founding mission, that's your call.** We can't
+  tell you not to use OpenAI's API — the ToS today is fine. We can
+  tell you that when the corporate form changes this fundamentally,
+  the operating defaults follow. Receipts:
   [Elon Musk v. Altman complaint (2024)](https://storage.courtlistener.com/recap/gov.uscourts.cand.428589/gov.uscourts.cand.428589.1.0.pdf) ·
   [OpenAI's own restructuring statement (Sep 2024)](https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission/) ·
   [Bret Taylor / board governance changes (Nov 2023)](https://openai.com/index/sam-altman-returns-as-ceo-openai-has-a-new-initial-board/) ·
@@ -420,6 +423,53 @@ locally, sends prompts to Anthropic.
   forwards to underlying providers' enterprise tiers.
 - **Note:** Underlying provider is whichever model you've selected
   (Anthropic, OpenAI, etc.) — their terms apply to that route.
+
+### Google Antigravity — `Antigravity Terms of Service` ⚠️
+
+- **Source:** [antigravity.google](https://antigravity.google) ·
+  [Google Cloud generative-AI terms](https://cloud.google.com/terms/generative-ai)
+- **Plain-English (ToS):** Paid tiers state no training on customer
+  inputs. The clauses on the page read like every other Google
+  generative-AI product. The clauses are not the issue.
+- 🚨 **Marketing-vs-reality red flag — operator-banning at top tier:**
+  Google markets Antigravity with "enterprise security" language while
+  reserving the right to suspend any account based on undisclosed
+  usage-pattern signals. Documented user experience: a paying customer
+  on the **Google AI Ultra** tier (USD 300/month, the top consumer
+  plan) was suspended for **7 days without explanation, no human
+  appeal path, no pro-rated refund on cancellation** — apparent
+  trigger was night-time usage flagged as "abnormal" by an automated
+  classifier. USD 300/month for a product that bans the customer for
+  working unusual hours is the joke writing itself.
+
+  This is not a one-off. The signal pattern matters more than the
+  individual incident:
+
+  1. **"Enterprise security" branding doesn't survive contact with
+     the moderation pipeline.** If Google can suspend you for working
+     hours that don't match a typical 9-5, they are by definition
+     monitoring and behavioural-fingerprinting your usage. Marketing
+     copy promising "security" cannot coexist with an automated
+     ban-bot tuned to working-pattern heuristics.
+  2. **No appeal, no refund.** When suspension lands, there is no
+     human review path on a reasonable timeline. Cancellation does
+     not trigger pro-rata refund of the unused subscription period.
+  3. **Builders cannot architect on this.** A coding agent that may
+     be locked out of your account for a week with no warning is not
+     production infrastructure. It is a consumer product that bills
+     enterprise prices.
+- **Receipts:** Direct user-reported experience documented by
+  Brethof AI 2026-04-30 (paid Antigravity subscriber, suspended
+  during overnight working session, no reason supplied, no refund on
+  cancellation). Pattern matches public reports from
+  [r/Bard](https://www.reddit.com/r/Bard) /
+  [r/GoogleGeminiAI](https://www.reddit.com/r/GoogleGeminiAI/)
+  about content-policy bans on Gemini-family products generally.
+- **Recommendation:** If you must use it, treat it as a consumer
+  product priced as enterprise. Do not put it on a critical path.
+  See [awesome-ai-coding-agents](https://github.com/BrethofAI/awesome-ai-coding-agents)
+  for alternatives whose vendor cannot lock you out of your own
+  workflow on a Sunday night.
 
 ### `[stub]` Aider, Continue, Tabby
 
