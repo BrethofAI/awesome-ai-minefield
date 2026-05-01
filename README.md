@@ -565,6 +565,9 @@ on the deployer.
 - **[awesome-private-ai](https://github.com/BrethofAI/awesome-private-ai)** — Privacy *architecture*. This list provides the *receipts* for the privacy claims listed there.
 - **[awesome-local-ai](https://github.com/BrethofAI/awesome-local-ai)** — Tools that run on-device, where most of the data-licensing questions evaporate.
 - **[anti-dev-tier-list](https://github.com/BrethofAI/anti-dev-tier-list)** — Some egregious license / ToS practices end up in the tier list as well as here.
+- **[awesome-llms-txt](https://github.com/BrethofAI/awesome-llms-txt)** — Tools doing the right thing for AI agent discoverability.
+- **[awesome-linux-for-ai](https://github.com/BrethofAI/awesome-linux-for-ai)** — Where you run open-weights models without anyone's ToS in the loop.
+- **[awesome-mcp-servers](https://github.com/BrethofAI/awesome-mcp-servers)** — MCP servers; their permission tags read directly from the same kind of analysis this list does for models.
 
 ## Contributing
 
