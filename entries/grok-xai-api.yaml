@@ -1,0 +1,15 @@
+name: Grok (xAI API)
+slug: grok-xai-api
+url: https://x.ai/legal/terms-of-service-enterprise
+category: commercial-cloud-llm-apis
+category_label: Commercial Cloud LLM APIs
+tagline: 'API content is auto-deleted within 30 days and not used for training by
+  default; the consumer privacy policy doesn''t apply to API data. Caveat: consumer
+  Grok trains on your public X posts by default outside the EU.'
+tags:
+- xAI API Terms 2026
+- 'train on inputs: ✅ no (API default)'
+- 'commercial: 🛡️ allowed'
+list: ai-mine
+added: '2026-04-30'
+category_order: 0
