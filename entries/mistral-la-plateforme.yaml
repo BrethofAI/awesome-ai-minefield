@@ -1,0 +1,13 @@
+name: Mistral La Plateforme
+slug: mistral-la-plateforme
+url: https://mistral.ai/terms/
+category: commercial-cloud-llm-apis
+category_label: Commercial Cloud LLM APIs
+tagline: Mistral does not train on commercial-API inputs by default. EU-hosted, GDPR-relevant.
+tags:
+- Terms of Service 2025
+- 'train on inputs: ✅ no'
+- 'commercial: 🛡️ allowed'
+list: ai-mine
+added: '2026-04-30'
+category_order: 0

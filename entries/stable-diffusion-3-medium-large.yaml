@@ -1,0 +1,13 @@
+name: Stable Diffusion 3 Medium / Large
+slug: stable-diffusion-3-medium-large
+url: https://stability.ai/community-license-agreement
+category: image-generation-models
+category_label: Image Generation Models
+tagline: Free for non-commercial and small-business commercial use (under USD 1M annual
+  revenue). Above that threshold requires Stability AI Enterprise license.
+tags:
+- Stability AI Community License
+- 'commercial: ⚠️ restricted (USD 1M revenue threshold)'
+list: ai-mine
+added: '2026-04-30'
+category_order: 2
