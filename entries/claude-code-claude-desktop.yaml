@@ -1,0 +1,13 @@
+name: Claude Code / Claude Desktop
+slug: claude-code-claude-desktop
+url: ''
+category: ai-coding-assistants
+category_label: AI Coding Assistants
+tagline: See [Anthropic API](#anthropic-api-claude--commercial-terms-2025). Code submitted
+  via Claude Code is subject to the same zero-retention, no-training defaults as the
+  API. **Disclosure:** runs locally, sends prompts to Anthropic.
+tags:
+- Commercial Terms
+list: ai-mine
+added: '2026-04-30'
+category_order: 3
