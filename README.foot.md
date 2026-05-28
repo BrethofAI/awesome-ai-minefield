@@ -30,4 +30,4 @@ if you're making a real decision.
 
 ---
 
-Maintained by **[Brethof AI](https://brethof.com)** — we read the fine print so you can ship.
+Maintained by **[Brethof AI](https://brethof.ai)** — we read the fine print so you can ship.
