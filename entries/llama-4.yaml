@@ -1,14 +1,14 @@
 name: Llama 4
 slug: llama-4
 url: https://www.llama.com/license/
-category: open-weights-llms-restrictive-community-licenses
-category_label: Open-Weights LLMs (Restrictive Community Licenses)
-tagline: Free for commercial and research use *unless* your product or its parents
-  had ≥ 700 million monthly active users at the Llama 3 release date — in which case
-  you need a separate license from Meta.
+category: open-weights-llms
+category_label: Open-Weights LLMs
+tagline: 'Free for commercial and research use — UNLESS your product, or one of its parent companies, had ≥ 700 million monthly active users at the Llama 3 release date. In that case you need a separate licence from Meta. For everyone else (i.e. almost everyone) this is genuinely commercial-friendly weights.'
 tags:
-- Llama Community License
-- 'commercial: ⚠️ restricted (700M MAU threshold)'
+- 🟡 Conditional — MAU threshold
+- Llama 4 Community License
+- 700M MAU trigger
+- Otherwise commercial OK
 list: ai-mine
 added: '2026-04-30'
 category_order: 1

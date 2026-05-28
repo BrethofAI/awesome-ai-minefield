@@ -3,12 +3,13 @@ slug: anthropic-api-claude
 url: https://www.anthropic.com/legal/commercial-terms
 category: commercial-cloud-llm-apis
 category_label: Commercial Cloud LLM APIs
-tagline: Anthropic does not train on customer API inputs or outputs by default. Zero
-  retention except for safety classification and a short cache window.
+tagline: 'Anthropic does not train on customer API inputs or outputs by default. Zero retention except for a short safety-classification window and the prompt cache. Outputs are yours; commercial use of generated content is allowed. (Different terms apply to the free Claude.ai consumer tier — read that separately.)'
 tags:
+- 🟢 Clean
 - Commercial Terms 2025
-- 'train on inputs: ✅ no'
-- 'commercial: 🛡️ allowed'
+- No training on inputs (default)
+- Outputs are yours
+- Zero retention
 list: ai-mine
 added: '2026-04-30'
 category_order: 0

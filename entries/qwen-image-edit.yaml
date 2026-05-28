@@ -1,0 +1,15 @@
+name: Qwen-Image-Edit (Alibaba)
+slug: qwen-image-edit
+url: https://huggingface.co/Qwen/Qwen-Image-Edit
+category: image-generation-models
+category_label: Image Generation Models
+tagline: 'Apache 2.0. Alibaba''s natural-language image-editing companion to Qwen-Image — instruct it to edit existing images with text prompts. Same permissive licence as the base model: full commercial use, modification, fine-tuning, self-hosted deployment all allowed.'
+tags:
+- 🟢 Clean
+- Apache 2.0
+- Full commercial use
+- Self-host OK
+- Natural-language image editing
+list: ai-mine
+added: '2026-05-28'
+category_order: 2

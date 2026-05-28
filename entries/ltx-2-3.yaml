@@ -1,0 +1,16 @@
+name: LTX-2 / LTX-2.3 (Lightricks)
+slug: ltx-2-3
+url: https://huggingface.co/Lightricks/LTX-2/blob/main/LICENSE
+category: video-generation-models
+category_label: Video Generation Models
+tagline: 'Free commercial use up to USD 10 million aggregated annual revenue across subsidiaries and affiliates. Required conditions: must disclose AI-generated content to viewers, no deepfakes / impersonation without consent, and you may NOT use it to build a service that competes with LTX-2 video generation. Above $10M revenue you negotiate with Lightricks (liquidated damages clause is 2× retroactive fees if you used it commercially without paying). Outputs are yours — videos can be sold, monetised on YouTube, used in ads.'
+tags:
+- 🟡 Conditional — multiple clauses
+- LTX-2 Community License
+- "<$10M revenue commercial OK"
+- Disclose AI-generated content
+- No competing service
+- Outputs are yours
+list: ai-mine
+added: '2026-05-28'
+category_order: 4

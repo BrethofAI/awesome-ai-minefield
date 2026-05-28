@@ -1,0 +1,15 @@
+name: FLUX.2 [klein] 9B (Black Forest Labs)
+slug: flux-2-klein-9b
+url: https://huggingface.co/black-forest-labs/FLUX.2-klein-9B/blob/main/LICENSE.md
+category: image-generation-models
+category_label: Image Generation Models
+tagline: 'FLUX Non-Commercial License. The 9B variant gives you the bigger model capacity at the cost of commercial rights — research, personal projects, fine-tuning experiments are allowed; shipping a paid product on these weights is NOT, unless you sign a separate Commercial Use Agreement with Black Forest Labs (their tiered SaaS plan starts at 100K images/month).'
+tags:
+- 🟡 Conditional — non-commercial
+- FLUX Non-Commercial License
+- Research + personal OK
+- Commercial needs BFL agreement
+- "9B capacity costs the open-source bit"
+list: ai-mine
+added: '2026-05-28'
+category_order: 2

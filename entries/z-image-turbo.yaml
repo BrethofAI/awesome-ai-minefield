@@ -1,0 +1,15 @@
+name: Z-Image Turbo (Tongyi-MAI)
+slug: z-image-turbo
+url: https://huggingface.co/Tongyi-MAI/Z-Image-Turbo
+category: image-generation-models
+category_label: Image Generation Models
+tagline: 'Apache 2.0. 6B-parameter text-to-image model from Tongyi-MAI (Alibaba''s AI division) optimised for speed — ultra-fast photorealistic generation. Released November 2025 under one of the most permissive AI-model licences in circulation: full commercial use, modification, redistribution, self-hosted deployment.'
+tags:
+- 🟢 Clean
+- Apache 2.0
+- 6B params (fast)
+- Full commercial use
+- Self-host OK
+list: ai-mine
+added: '2026-05-28'
+category_order: 2
