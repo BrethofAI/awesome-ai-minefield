@@ -1,0 +1,28 @@
+# Per-category intro paragraphs, keyed by category slug.
+# Emitted under each category heading by scripts/gen_awesome_readme.py.
+
+commercial-cloud-llm-apis: >
+  Cloud LLM APIs you can call from a product without giving up your
+  customers' inputs to the model trainers. The relevant clauses are
+  in the API terms (NOT the consumer privacy policy — those are
+  almost always different on the same provider's website).
+
+ai-coding-assistants: >
+  IDE / desktop apps that route your code through a cloud LLM. The
+  terms inherit from the underlying API in most cases — we link the
+  parent entry where that's true.
+
+open-weights-llms: >
+  LLM weights you can download and run yourself. Licence variance is
+  the whole point of reading these — "open weights" alone tells you
+  almost nothing about whether you can ship a paid product on them.
+
+image-generation-models: >
+  Image-generation model weights. Mix of Apache 2.0 (commercial OK)
+  and bespoke vendor "Community" licences with revenue caps or
+  non-commercial clauses. The 🟢 / 🟡 pill tells you which.
+
+video-generation-models: >
+  Video-generation model weights. New, fast-moving, and the licences
+  are evolving faster than the model architectures. Always re-check
+  the LICENCE file on the model card before you commit to a project.

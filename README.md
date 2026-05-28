@@ -1,411 +1,161 @@
 # awesome-ai-mine
 
-> AI tool licenses and data terms — know what you're signing before you build on it.
+> The **AI Minefield** — AI model and tool licences read end-to-end, with the clause that matters quoted on each card. The ones we can recommend, and the ones with caveats you should know about before you ship.
 
-Maintained by [Brethof AI](https://brethof.com). The "read the fine
-print so you don't have to" companion to
+Maintained by [Brethof AI](https://brethof.com). Companion to
 [awesome-private-ai](https://github.com/BrethofAI/awesome-private-ai)
 and [awesome-local-ai](https://github.com/BrethofAI/awesome-local-ai).
 
 ## Why this list exists
 
 The legal surface area of modern AI tooling is hostile by default.
-"Open weights" sometimes means "non-commercial only". "Open source"
+"Open weights" sometimes means "non-commercial only." "Open source"
 sometimes covers a permissive client and a closed cloud. ToS pages
-update without changelog entries. Free-tier users routinely have
-their inputs harvested for training; paid-tier users routinely don't —
-but the toggle is buried.
+update without changelog entries. Free-tier consumer products
+routinely train on your inputs; paid API tiers of the same products
+routinely don't — but the toggle is buried somewhere in a different
+document.
 
-This list catalogues the four questions that actually matter:
+This list catalogues, **for each tool that earned a spot here**, the
+four questions that actually matter:
 
 1. **Will this tool train on my data?** *(retention + use-for-training)*
 2. **Can I use it commercially?** *(weights / models / output)*
 3. **Who owns the outputs?** *(IP assignment)*
 4. **Am I indemnified if the model regurgitates copyrighted material?**
 
-Every entry links to the live ToS / license URL with the relevant
-clause quoted. We re-verify on every release; clauses that move are
-flagged stale until rechecked.
+We quote the load-bearing clause directly on each card. We do not
+paraphrase. We do not editorialise. The licence is the source.
 
-## How to read an entry
+## How to read the cards
 
-Each entry has the same shape:
+Every entry has a verdict pill as its first tag:
 
-> **[tool name]** — `license-or-terms-version`
-> Source: link to live ToS / license file
-> Effective: date the version of the policy was published
-> Plain-English: short translation of the relevant clause(s)
-> Receipts: pull-quote, line numbers / archive link
+- **🟢 Clean** — recommend without caveats. Full commercial use is OK
+  out of the box. Examples: Apache 2.0 weights; Anthropic API where
+  zero-retention + no-training is the default tier behaviour.
+- **🟡 Conditional** — usable, but a specific clause matters. The
+  pill tells you what (`revenue cap`, `non-commercial`, `disclose AI`,
+  `no competing service`, etc). Read the tagline before you ship.
 
-Where a clause is unclear, we say so. We are not lawyers; this is a
-research aid, not legal advice.
+There is no 🔴 tier on this list. If the answer to "can a small
+business ship a product on this without paying or asking?" is "no
+for hostile reasons" (e.g. mandatory training on your inputs, broad
+IP claims on your outputs, default-public data harvest), the tool
+is **not** on this list. We don't explain those omissions — this
+isn't a critique blog, it's a recommend list.
 
-## Legend
+## Inclusion rules
 
-- 🆓 free for personal · 💰 paid · 🆓💰 mixed
-- 🏠 on-device only · ☁️ cloud · 🏗️ self-hostable
-- ✅ does not train on user inputs (default) · ⚠️ trains on inputs unless opted out · ❌ trains on inputs no opt-out
-- 🛡️ commercial use allowed · ⚠️ restricted commercial · 🚫 non-commercial only
-- 🔓 OSI-approved open source · 🔒 source-available / proprietary
-- 🛡️📜 IP indemnification offered
+To be listed:
 
-## Status of this list
+- We read the actual licence / ToS, not a vendor blog summary.
+- The load-bearing clause is quoted directly in the entry.
+- A small commercial team could ship on it — either freely (🟢) or
+  with a clearly-stated condition (🟡).
+- Maintained — the licence URL still resolves; the model / API still
+  exists; the terms quoted are current as of the entry's `added` date.
+- We re-check entries opportunistically. Vendors edit licences without
+  notice — if you spot drift, open an issue.
 
-> ⚠️ **Active research.** Sections marked **`[stub]`** have an entry
-> placeholder and the source URL but the clause analysis is pending.
-> Expect them to fill in over the coming weeks. PRs welcome — see
-> [Contributing](#contributing).
+## Disclaimer
+
+Not legal advice. We read these licences carefully and quote them
+directly, but we are an AI marketing team, not your lawyers. For
+anything you're betting your business on, have an actual attorney
+look at the terms.
 
 ## Contents
 
-- [Commercial Cloud LLM APIs](#commercial-cloud-llm-apis)
-- [Consumer Chat Apps](#consumer-chat-apps)
-- [Open-Weights LLMs (Permissive)](#open-weights-llms-permissive)
-- [Open-Weights LLMs (Restrictive Community Licenses)](#open-weights-llms-restrictive-community-licenses)
-- [Image Generation Models](#image-generation-models)
-- [Video Generation Models](#video-generation-models)
-- [Voice & Audio Models](#voice--audio-models)
-- [AI Coding Assistants](#ai-coding-assistants)
-- [Indemnification Watch](#indemnification-watch)
+- [Commercial Cloud LLM APIs](#commercial-cloud-llm-apis) (2)
+- [Open-Weights LLMs](#open-weights-llms) (1)
+- [Image Generation Models](#image-generation-models) (7)
+- [AI Coding Assistants](#ai-coding-assistants) (1)
+- [Video Generation Models](#video-generation-models) (2)
 
----
+<!-- The list below is generated from entries/*.yaml by scripts/gen_awesome_readme.py. Edit the YAML, not this section. -->
 
 ## Commercial Cloud LLM APIs
 
-### Anthropic API (Claude) — `Commercial Terms 2025`
+Cloud LLM APIs you can call from a product without giving up your customers' inputs to the model trainers. The relevant clauses are in the API terms (NOT the consumer privacy policy — those are almost always different on the same provider's website).
 
-- **Source:** [anthropic.com/legal/commercial-terms](https://www.anthropic.com/legal/commercial-terms)
-- **Plain-English:** Anthropic does not train on customer API inputs or
-  outputs by default. Zero retention except for safety classification
-  and a short cache window.
-- **Train on inputs:** ✅ no
-- **Commercial:** 🛡️ allowed
-- **Outputs:** customer owns
-- **Receipts:** Section "Customer Content" — *"We will not use Customer
-  Content to train our models. … We will only retain Customer Content
-  to the extent necessary to provide the Services."*
-- **Note:** Consumer products (Claude.ai, Claude apps) operate under
-  the [Consumer Terms](https://www.anthropic.com/legal/consumer-terms)
-  with different defaults. Read separately.
+- **[Anthropic API (Claude)](https://www.anthropic.com/legal/commercial-terms)** — 🟢 Clean · Commercial Terms 2025 · No training on inputs (default) · Outputs are yours · Zero retention  
+  Anthropic does not train on customer API inputs or outputs by default. Zero retention except for a short safety-classification window and the prompt cache. Outputs are yours; commercial use of generated content is allowed. (Different terms apply to the free Claude.ai consumer tier — read that separately.)
+- **[Grok (xAI API)](https://x.ai/legal/terms-of-service-enterprise)** — 🟢 Clean · xAI API Enterprise Terms 2026 · 30-day auto-delete · No training (API default) · Consumer tier differs (read separately)  
+  API content is auto-deleted within 30 days and not used for training by default; the consumer Grok privacy policy does NOT apply to API data — read the enterprise terms instead. Caveat: the consumer Grok app trains on your public X posts by default outside the EU. The API and the consumer product are two different products with two different deals.
 
-### Grok (xAI API) — `xAI API Terms 2026`
+## Open-Weights LLMs
 
-- **Source:** [x.ai/legal/terms-of-service-enterprise](https://x.ai/legal/terms-of-service-enterprise)
-- **Plain-English:** API content is auto-deleted within 30 days and not used for training by default; the consumer privacy policy doesn't apply to API data. Caveat: consumer Grok trains on your public X posts by default outside the EU.
-- **Train on inputs:** ✅ no (API default)
-- **Commercial:** 🛡️ allowed
-- **Receipts:** xAI API / Enterprise Terms — API "User Content" auto-deleted no later than 30 days unless an Order Form, law, or safety need requires longer.
+LLM weights you can download and run yourself. Licence variance is the whole point of reading these — "open weights" alone tells you almost nothing about whether you can ship a paid product on them.
 
-### `[stub]` Cohere — `[stub]` AWS Bedrock — `[stub]` Azure OpenAI — `[stub]` Vertex AI
-
-Pending detailed clause analysis. Sources linked in the
-[contributors guide](#contributing).
-
----
-
-## Consumer Chat Apps
-
-### ChatGPT (consumer plans) — `Terms of Use 2025`
-
-- **Source:** [openai.com/policies/terms-of-use](https://openai.com/policies/terms-of-use/)
-- **Free tier:** ⚠️ trains on chats unless you toggle off in Settings.
-- **Plus / Team / Pro:** ✅ does not train by default.
-- **Note:** Memory feature persists across chats independent of
-  training-toggle; review Memory settings separately.
-
-### Claude.ai (consumer plans) — `Consumer Terms 2025`
-
-- **Source:** [anthropic.com/legal/consumer-terms](https://www.anthropic.com/legal/consumer-terms)
-- **Train on chats:** ✅ no by default. Claude.ai matches API
-  zero-retention posture for the standard product.
-
-### Google Gemini App — `[stub]`
-
-- **Source:** [policies.google.com/terms/generative-ai](https://policies.google.com/terms/generative-ai)
-- Pending detailed analysis.
-
-### Microsoft Copilot — `[stub]`
-
-- **Source:** [microsoft.com/copilot](https://www.microsoft.com/en-us/copilot)
-- Pending detailed analysis. Note: Microsoft 365 Copilot has stronger
-  enterprise commitments than the free `copilot.microsoft.com` product.
-
----
-
-## Open-Weights LLMs (Permissive)
-
-These ship under standard OSI-approved licenses with no special
-clauses for AI use.
-
-### Mistral 7B / Mixtral 8x7B / 8x22B — `Apache 2.0`
-
-- **Source:** [huggingface.co/mistralai](https://huggingface.co/mistralai)
-- **Commercial:** 🛡️ allowed
-- **Distribute fine-tunes:** allowed under Apache 2.0
-- **Notes:** Mistral Large 2 is *not* Apache; see Restrictive section.
-
-### Qwen 2.5 / 3 (most variants) — `Apache 2.0`
-
-- **Source:** [huggingface.co/Qwen](https://huggingface.co/Qwen)
-- **Commercial:** 🛡️ allowed
-- **Notes:** Some Qwen-VL and Qwen-72B variants ship under custom
-  Tongyi terms — read each model card. Standard Qwen-7B / 14B / 32B
-  are Apache.
-
-### DeepSeek-V3 / V3.1 — `MIT-style`
-
-- **Source:** [github.com/deepseek-ai/DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3)
-- **Commercial:** 🛡️ allowed
-- **Notes:** Most permissive frontier-class model.
-
-### Falcon 180B / Falcon 2 — `Apache 2.0` (TII)
-
-- **Source:** [huggingface.co/tiiuae](https://huggingface.co/tiiuae)
-- **Commercial:** 🛡️ allowed
-
-### `[stub]` Whisper — Apache 2.0 (audio)
-
-### `[stub]` SmolLM, Phi-3.5 — MIT
-
----
-
-## Open-Weights LLMs (Restrictive Community Licenses)
-
-### Llama 4 — `Llama Community License`
-
-- **Source:** [llama.com/license](https://www.llama.com/license/)
-- **Plain-English:** Free for commercial and research use *unless* your
-  product or its parents had ≥ 700 million monthly active users at the
-  Llama 3 release date — in which case you need a separate license
-  from Meta.
-- **Commercial:** ⚠️ restricted (700M MAU threshold)
-- **Distribute:** allowed with attribution
-- **Note:** Most companies are unaffected. Includes "use as a basis
-  to improve another LLM" prohibition for the 700M-MAU class.
-- **Receipts:** Section 1.b — *"If, on the Llama 3 version release
-  date, the monthly active users of the products or services made
-  available by or for Licensee … is greater than 700 million monthly
-  active users in the preceding calendar month, you must request a
-  license from Meta."*
-
-### Mistral Large 2 — `Mistral Research License (MRL)`
-
-- **Source:** [mistral.ai/news/mistral-large-2407](https://mistral.ai/news/mistral-large-2407/)
-- **Commercial:** 🚫 non-commercial without separate paid license
-- **Note:** Confusing because Mistral 7B / Mixtral are Apache. Each
-  Mistral model has its own license.
-
-### Gemma 2 / 3 — `Gemma Terms of Use`
-
-- **Source:** [ai.google.dev/gemma/terms](https://ai.google.dev/gemma/terms)
-- **Commercial:** 🛡️ allowed
-- **Restrictions:** Google reserves the right to terminate the
-  license for "harmful uses" listed in the Prohibited Use Policy.
-- **Note:** Less restrictive than Llama in commercial scope; more
-  restrictive in use-policy enforceability.
-
----
+- **[Llama 4](https://www.llama.com/license/)** — 🟡 Conditional — MAU threshold · Llama 4 Community License · 700M MAU trigger · Otherwise commercial OK  
+  Free for commercial and research use — UNLESS your product, or one of its parent companies, had ≥ 700 million monthly active users at the Llama 3 release date. In that case you need a separate licence from Meta. For everyone else (i.e. almost everyone) this is genuinely commercial-friendly weights.
 
 ## Image Generation Models
 
-### Stable Diffusion 3 Medium / Large — `Stability AI Community License`
+Image-generation model weights. Mix of Apache 2.0 (commercial OK) and bespoke vendor "Community" licences with revenue caps or non-commercial clauses. The 🟢 / 🟡 pill tells you which.
 
-- **Source:** [stability.ai/community-license](https://stability.ai/community-license-agreement)
-- **Plain-English:** Free for non-commercial and small-business
-  commercial use (under USD 1M annual revenue). Above that threshold
-  requires Stability AI Enterprise license.
-- **Commercial:** ⚠️ restricted (USD 1M revenue threshold)
-- **Outputs:** customer owns
-- **Receipts:** Section 1 — *"You may use the Stability AI Materials
-  for Commercial Use … provided that … the Total Annual Revenue is
-  less than One Million U.S. Dollars."*
-
-### Flux.1 [dev] — `FLUX.1 [dev] Non-Commercial License`
-
-- **Source:** [github.com/black-forest-labs/flux/blob/main/model_licenses/LICENSE-FLUX1-dev](https://github.com/black-forest-labs/flux/blob/main/model_licenses/LICENSE-FLUX1-dev)
-- **Commercial:** 🚫 non-commercial only
-- **Note:** Powers most "open source SD3 alternative" workflows but
-  cannot be used commercially without enterprise license from BFL.
-
-### Flux.1 [schnell] — `Apache 2.0`
-
-- **Source:** [github.com/black-forest-labs/flux](https://github.com/black-forest-labs/flux)
-- **Commercial:** 🛡️ allowed
-- **Note:** Speed-tuned; lower quality than `[dev]` but
-  commercially-usable open weights.
-
-### Flux.1 [pro] — closed, API-only
-
-- **Source:** [blackforestlabs.ai](https://blackforestlabs.ai)
-- **Self-host:** 🔒 not available
-- **Commercial:** 🛡️ allowed via API
-
-### `[stub]` Flux.2 family
-
-- **Source:** [blackforestlabs.ai](https://blackforestlabs.ai)
-- Pending verification of variant-specific clauses.
-
-### `[stub]` SDXL — CreativeML OpenRAIL-M
-
-- **Source:** [huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/LICENSE.md](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/LICENSE.md)
-- Pending detailed analysis. RAIL licenses introduce use-case
-  restrictions ("you may not use to spread disinformation, etc.")
-  that aren't OSI-compliant.
-
-### Midjourney — closed, terms-of-service-only
-
-- **Source:** [docs.midjourney.com/docs/terms-of-service](https://docs.midjourney.com/docs/terms-of-service)
-- **Outputs:** Paid users own outputs. Free trial users grant MJ a
-  broad licence to display.
-- **Train on prompts:** ⚠️ yes (prompts, images, descriptions)
-
----
-
-## Video Generation Models
-
-### LTX Video 0.9 — `Apache 2.0`
-
-- **Source:** [github.com/Lightricks/LTX-Video](https://github.com/Lightricks/LTX-Video)
-- **Commercial:** 🛡️ allowed
-- **Note:** Earlier LTX 0.9 weights are Apache; later 1.0 / 2.x have
-  introduced custom Lightricks community terms — verify the version
-  you're using.
-
-### Wan2.2 — `Apache 2.0` (per HF model card)
-
-- **Source:** [huggingface.co/Wan-AI](https://huggingface.co/Wan-AI)
-- **Commercial:** 🛡️ allowed
-
-### HunyuanVideo — `Tencent Hunyuan Community License`
-
-- **Source:** [github.com/Tencent/HunyuanVideo](https://github.com/Tencent/HunyuanVideo)
-- **Commercial:** ⚠️ restricted (custom community terms)
-
-### `[stub]` Sora API — closed, OpenAI ToS
-
-### `[stub]` Veo 3 — closed, Google ToS
-
-### `[stub]` Kling AI — closed, Kuaishou ToS
-
----
-
-## Voice & Audio Models
-
-### Whisper — `MIT`
-
-- **Source:** [github.com/openai/whisper](https://github.com/openai/whisper)
-- **Commercial:** 🛡️ allowed
-- **Note:** Reference and quantised forks (`whisper.cpp`,
-  `faster-whisper`) inherit the MIT license.
-
-### Qwen3-ASR — `Apache 2.0`
-
-- **Source:** [github.com/QwenLM/Qwen3-ASR](https://github.com/QwenLM/Qwen3-ASR)
-- **Commercial:** 🛡️ allowed
-- **Note:** Powers Brethof Voice Pro. We pay no per-token fee and the
-  weights stay on-device.
-
-### Brethof Voice Pro — `EULA + perpetual commercial license`
-
-- **Source:** [brethof.com/legal](https://brethof.com)
-- **Commercial:** 🛡️ allowed (Personal license now covers solo /
-  freelance commercial; Business per-seat for teams)
-- **Train on user audio:** ✅ no — audio never leaves the device.
-- **Note:** Disclosure: maintained by us. Listed for completeness;
-  this list is curation, not advertisement.
-
-### `[stub]` ElevenLabs — closed, ElevenLabs ToS (training-on-prompts question)
-
-### `[stub]` Suno — closed, Suno ToS (output-ownership unclear)
-
----
+- **[FLUX.2 [dev] (Black Forest Labs)](https://huggingface.co/black-forest-labs/FLUX.2-dev)** — 🟡 Conditional — non-commercial · FLUX.2-dev Non-Commercial License · 32B flagship · Commercial needs BFL agreement · Pick klein 4B for commercial  
+  FLUX.2-dev Non-Commercial License. The 32B flagship of the FLUX.2 family — top output quality, biggest VRAM appetite, and the most restrictive licence of the three (klein 4B is Apache 2.0; klein 9B is non-commercial; dev 32B is also non-commercial). Personal projects, research, fine-tuning experiments OK. Commercial requires a BFL Commercial Use Agreement.
+- **[FLUX.2 [klein] 4B (Black Forest Labs)](https://huggingface.co/black-forest-labs/FLUX.2-klein-4B/blob/main/LICENSE.md)** — 🟢 Clean · Apache 2.0 · Full commercial use · Royalty-free · Sibling 9B/dev are NOT Apache (separate entries)  
+  Apache 2.0. The 4B variant of FLUX.2 [klein] is released as genuinely open-source — full commercial use, modification, redistribution, royalty-free. Build a paid app, a SaaS, a game with integrated image generation — all OK. Note: the LARGER FLUX.2 [klein] 9B and FLUX.2 [dev] are NOT Apache 2.0 (see separate entries).
+- **[FLUX.2 [klein] 9B (Black Forest Labs)](https://huggingface.co/black-forest-labs/FLUX.2-klein-9B/blob/main/LICENSE.md)** — 🟡 Conditional — non-commercial · FLUX Non-Commercial License · Research + personal OK · Commercial needs BFL agreement · 9B capacity costs the open-source bit  
+  FLUX Non-Commercial License. The 9B variant gives you the bigger model capacity at the cost of commercial rights — research, personal projects, fine-tuning experiments are allowed; shipping a paid product on these weights is NOT, unless you sign a separate Commercial Use Agreement with Black Forest Labs (their tiered SaaS plan starts at 100K images/month).
+- **[Qwen-Image (Alibaba)](https://github.com/QwenLM/Qwen-Image)** — 🟢 Clean · Apache 2.0 · Full commercial use · Self-host OK · Strong text-in-image rendering  
+  Apache 2.0. Strong open-weights text-to-image model from Alibaba with notable strength in complex text rendering inside images (a long-standing weak point for diffusion models). Full commercial use, modification, fine-tuning, self-hosted deployment — no restrictions.
+- **[Qwen-Image-Edit (Alibaba)](https://huggingface.co/Qwen/Qwen-Image-Edit)** — 🟢 Clean · Apache 2.0 · Full commercial use · Self-host OK · Natural-language image editing  
+  Apache 2.0. Alibaba's natural-language image-editing companion to Qwen-Image — instruct it to edit existing images with text prompts. Same permissive licence as the base model: full commercial use, modification, fine-tuning, self-hosted deployment all allowed.
+- **[Stable Diffusion 3 Medium / Large](https://stability.ai/community-license-agreement)** — 🟡 Conditional — revenue cap · Stability AI Community License · <$1M revenue commercial OK · Outputs are yours  
+  Free for non-commercial use, and for commercial use by individuals and businesses under USD 1 million in annual revenue. Above that revenue threshold you need a Stability AI Enterprise license. Outputs are yours.
+- **[Z-Image Turbo (Tongyi-MAI)](https://huggingface.co/Tongyi-MAI/Z-Image-Turbo)** — 🟢 Clean · Apache 2.0 · 6B params (fast) · Full commercial use · Self-host OK  
+  Apache 2.0. 6B-parameter text-to-image model from Tongyi-MAI (Alibaba's AI division) optimised for speed — ultra-fast photorealistic generation. Released November 2025 under one of the most permissive AI-model licences in circulation: full commercial use, modification, redistribution, self-hosted deployment.
 
 ## AI Coding Assistants
 
-### Claude Code / Claude Desktop — `Commercial Terms`
+IDE / desktop apps that route your code through a cloud LLM. The terms inherit from the underlying API in most cases — we link the parent entry where that's true.
 
-See [Anthropic API](#anthropic-api-claude--commercial-terms-2025).
-Code submitted via Claude Code is subject to the same
-zero-retention, no-training defaults as the API. **Disclosure:** runs
-locally, sends prompts to Anthropic.
+- **[Claude Code / Claude Desktop](https://www.anthropic.com/legal/commercial-terms)** — 🟢 Clean · Inherits Anthropic Commercial Terms · No code harvesting · Local-client, cloud-inference  
+  Code you submit via Claude Code / Claude Desktop is governed by Anthropic's Commercial Terms — same zero-retention and no-training-on-inputs defaults as the raw API. Runs locally on your machine; prompts are sent to Anthropic for inference. No code-snippet harvesting.
 
-### GitHub Copilot — `GitHub Pre-Release Agreement / Customer Agreement`
+## Video Generation Models
 
-- **Source:** [docs.github.com/en/copilot/responsible-use-of-github-copilot-features](https://docs.github.com/en/copilot/responsible-use-of-github-copilot-features)
-- **Train on user code:** ⚠️ yes, on the *Free* tier. Paid
-  Copilot tiers honour an explicit data-use opt-out.
-- **Indemnification:** 🛡️📜 yes — Microsoft offers a Copilot
-  indemnity for Enterprise customers covering output-similarity
-  copyright claims.
-- **Commercial:** 🛡️ allowed.
+Video-generation model weights. New, fast-moving, and the licences are evolving faster than the model architectures. Always re-check the LICENCE file on the model card before you commit to a project.
 
-### Cursor — `Cursor Terms of Service`
-
-- **Source:** [cursor.com/legal/terms](https://cursor.com/legal/terms-of-service)
-- **Train on user code:** ✅ no by default; "Privacy Mode" toggle
-  forwards to underlying providers' enterprise tiers.
-- **Note:** Underlying provider is whichever model you've selected
-  (Anthropic, OpenAI, etc.) — their terms apply to that route.
-
-### `[stub]` Aider, Continue, Tabby
-
-Local-LLM friendly assistants — privacy posture depends on the
-underlying model and host. See
-[awesome-ai-coding-agents](https://github.com/BrethofAI/awesome-ai-coding-agents).
-
----
-
-## Indemnification Watch
-
-Vendors offering legal indemnification when their tool reproduces
-copyrighted material in your output.
-
-| Vendor                  | Service                | Tier required                   | Receipts |
-|-------------------------|------------------------|---------------------------------|----------|
-| Microsoft               | GitHub Copilot         | Business / Enterprise           | [Microsoft Copilot Customer Copyright Commitment](https://www.microsoft.com/en-us/licensing/news/microsoft-copilot-copyright-commitment) |
-| Microsoft               | Azure OpenAI Service   | All                             | [Microsoft Copilot Customer Copyright Commitment (extended Sep 2023)](https://www.microsoft.com/en-us/licensing/news/microsoft-copilot-copyright-commitment) |
-| Google Cloud            | Vertex AI / Generative AI | All                          | [Google Cloud generated-output indemnification](https://cloud.google.com/blog/products/ai-machine-learning/protecting-customers-with-generative-ai-indemnification) |
-| Adobe                   | Firefly (commercial)    | Enterprise                      | [Adobe Firefly indemnification](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html) |
-| Shutterstock            | AI image generation     | All paid                        | [Shutterstock generative AI indemnification](https://www.shutterstock.com/discover/generative-ai-license-policy) |
-| Anthropic               | Commercial API          | Enterprise contracts only       | (per-contract; not blanket public commitment) |
-| OpenAI                  | Enterprise / API Pro   | Enterprise contracts only       | (per-contract) |
-
-We have not seen blanket indemnification from open-weights model
-publishers (Meta, Google for Gemma, Mistral) for downstream commercial use
-of model outputs. The legal exposure for output-copyright claims falls
-on the deployer.
-
----
+- **[LTX-2 / LTX-2.3 (Lightricks)](https://huggingface.co/Lightricks/LTX-2/blob/main/LICENSE)** — 🟡 Conditional — multiple clauses · LTX-2 Community License · <$10M revenue commercial OK · Disclose AI-generated content · No competing service · Outputs are yours  
+  Free commercial use up to USD 10 million aggregated annual revenue across subsidiaries and affiliates. Required conditions: must disclose AI-generated content to viewers, no deepfakes / impersonation without consent, and you may NOT use it to build a service that competes with LTX-2 video generation. Above $10M revenue you negotiate with Lightricks (liquidated damages clause is 2× retroactive fees if you used it commercially without paying). Outputs are yours — videos can be sold, monetised on YouTube, used in ads.
+- **[Wan 2.2 (Alibaba Tongyi Lab)](https://github.com/Wan-Video/Wan2.1)** — 🟢 Clean · Apache 2.0 · Full commercial use · Weights + code open · No vendor lock-in  
+  Apache 2.0. Full commercial use, modification, redistribution. No revenue cap, no disclosure requirement, no anti-competition clause. Alibaba publicly released weights, architecture, and code under one of the most permissive open-source licences. Mixture-of-experts video generation, text-to-video and image-to-video.
 
 ## Related work
 
-- **[awesome-private-ai](https://github.com/BrethofAI/awesome-private-ai)** — Privacy *architecture*. This list provides the *receipts* for the privacy claims listed there.
-- **[awesome-local-ai](https://github.com/BrethofAI/awesome-local-ai)** — Tools that run on-device, where most of the data-licensing questions evaporate.
-- **[anti-dev-tier-list](https://github.com/BrethofAI/anti-dev-tier-list)** — Some egregious license / ToS practices end up in the tier list as well as here.
-- **[awesome-llms-txt](https://github.com/BrethofAI/awesome-llms-txt)** — Tools doing the right thing for AI agent discoverability.
-- **[awesome-linux-for-ai](https://github.com/BrethofAI/awesome-linux-for-ai)** — Where you run open-weights models without anyone's ToS in the loop.
-- **[awesome-mcp-servers](https://github.com/BrethofAI/awesome-mcp-servers)** — MCP servers; their permission tags read directly from the same kind of analysis this list does for models.
+- **[awesome-local-ai](https://github.com/BrethofAI/awesome-local-ai)** — Local-first AI tools (runtimes, chat apps, agents) — many models from this list run there.
+- **[awesome-private-ai](https://github.com/BrethofAI/awesome-private-ai)** — Privacy-respecting AI more broadly.
+- **[awesome-mcp-servers](https://github.com/BrethofAI/awesome-mcp-servers)** — MCP servers that connect to LLMs from this list.
+- **[awesome-linux-for-ai](https://github.com/BrethofAI/awesome-linux-for-ai)** — Linux distros tuned for running these models locally.
+- **[awesome-llms-txt](https://github.com/BrethofAI/awesome-llms-txt)** — Tools that publish `llms.txt` for agent discovery.
 
 ## Contributing
 
 Open an issue with:
 
-- The tool name and live ToS / license URL.
-- The clause(s) at issue, quoted directly.
-- The version / effective date of the policy you're citing.
-- Plain-English interpretation, kept short.
+- The model / API / tool name and the canonical licence or ToS URL.
+- The exact clause text that decides the verdict (paste it; don't paraphrase).
+- Your read of the verdict — 🟢 Clean or 🟡 Conditional + the conditional reason in 1–3 words.
+- If you think a tool is missing because it sits in the unlisted-bad-actor pile, please don't open an issue about it — we know, that's the design.
 
-We accept stub PRs (entry + URL only) for tools we haven't analysed
-yet. We do not accept entries based on screenshots without a live URL.
-
-> ⚠️ This is not legal advice. We are technologists reading
-> documents. For real legal opinions, ask a real lawyer.
+Entries live as one YAML file per tool under `entries/`. This
+README is generated from them by [`scripts/gen_awesome_readme.py`](https://github.com/BrethofAI/brethof-website/blob/main/scripts/gen_awesome_readme.py)
+in the [`brethof-website`](https://github.com/BrethofAI/brethof-website)
+repo — edit the YAML, not this README.
 
 ## License
 
-[MIT](LICENSE).
+[MIT](LICENSE) on the catalog itself.
+
+The licences of the listed tools belong to their respective vendors
+and are linked in each entry — read the original, not our summary,
+if you're making a real decision.
 
 ---
 
-Maintained by **[Brethof AI](https://brethof.com)** — AI tools built for
-people who take their data seriously.
+Maintained by **[Brethof AI](https://brethof.com)** — we read the fine print so you can ship.

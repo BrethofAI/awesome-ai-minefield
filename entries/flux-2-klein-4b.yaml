@@ -1,0 +1,15 @@
+name: FLUX.2 [klein] 4B (Black Forest Labs)
+slug: flux-2-klein-4b
+url: https://huggingface.co/black-forest-labs/FLUX.2-klein-4B/blob/main/LICENSE.md
+category: image-generation-models
+category_label: Image Generation Models
+tagline: 'Apache 2.0. The 4B variant of FLUX.2 [klein] is released as genuinely open-source — full commercial use, modification, redistribution, royalty-free. Build a paid app, a SaaS, a game with integrated image generation — all OK. Note: the LARGER FLUX.2 [klein] 9B and FLUX.2 [dev] are NOT Apache 2.0 (see separate entries).'
+tags:
+- 🟢 Clean
+- Apache 2.0
+- Full commercial use
+- Royalty-free
+- "Sibling 9B/dev are NOT Apache (separate entries)"
+list: ai-mine
+added: '2026-05-28'
+category_order: 2

@@ -1,13 +1,14 @@
 name: Claude Code / Claude Desktop
 slug: claude-code-claude-desktop
-url: ''
+url: https://www.anthropic.com/legal/commercial-terms
 category: ai-coding-assistants
 category_label: AI Coding Assistants
-tagline: See [Anthropic API](#anthropic-api-claude--commercial-terms-2025). Code submitted
-  via Claude Code is subject to the same zero-retention, no-training defaults as the
-  API. **Disclosure:** runs locally, sends prompts to Anthropic.
+tagline: 'Code you submit via Claude Code / Claude Desktop is governed by Anthropic''s Commercial Terms — same zero-retention and no-training-on-inputs defaults as the raw API. Runs locally on your machine; prompts are sent to Anthropic for inference. No code-snippet harvesting.'
 tags:
-- Commercial Terms
+- 🟢 Clean
+- Inherits Anthropic Commercial Terms
+- No code harvesting
+- Local-client, cloud-inference
 list: ai-mine
 added: '2026-04-30'
 category_order: 3

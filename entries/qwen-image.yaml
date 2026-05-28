@@ -1,0 +1,15 @@
+name: Qwen-Image (Alibaba)
+slug: qwen-image
+url: https://github.com/QwenLM/Qwen-Image
+category: image-generation-models
+category_label: Image Generation Models
+tagline: 'Apache 2.0. Strong open-weights text-to-image model from Alibaba with notable strength in complex text rendering inside images (a long-standing weak point for diffusion models). Full commercial use, modification, fine-tuning, self-hosted deployment — no restrictions.'
+tags:
+- 🟢 Clean
+- Apache 2.0
+- Full commercial use
+- Self-host OK
+- Strong text-in-image rendering
+list: ai-mine
+added: '2026-05-28'
+category_order: 2

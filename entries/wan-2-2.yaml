@@ -1,0 +1,15 @@
+name: Wan 2.2 (Alibaba Tongyi Lab)
+slug: wan-2-2
+url: https://github.com/Wan-Video/Wan2.1
+category: video-generation-models
+category_label: Video Generation Models
+tagline: 'Apache 2.0. Full commercial use, modification, redistribution. No revenue cap, no disclosure requirement, no anti-competition clause. Alibaba publicly released weights, architecture, and code under one of the most permissive open-source licences. Mixture-of-experts video generation, text-to-video and image-to-video.'
+tags:
+- 🟢 Clean
+- Apache 2.0
+- Full commercial use
+- Weights + code open
+- No vendor lock-in
+list: ai-mine
+added: '2026-05-28'
+category_order: 4

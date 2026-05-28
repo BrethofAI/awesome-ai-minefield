@@ -1,0 +1,15 @@
+name: FLUX.2 [dev] (Black Forest Labs)
+slug: flux-2-dev
+url: https://huggingface.co/black-forest-labs/FLUX.2-dev
+category: image-generation-models
+category_label: Image Generation Models
+tagline: 'FLUX.2-dev Non-Commercial License. The 32B flagship of the FLUX.2 family — top output quality, biggest VRAM appetite, and the most restrictive licence of the three (klein 4B is Apache 2.0; klein 9B is non-commercial; dev 32B is also non-commercial). Personal projects, research, fine-tuning experiments OK. Commercial requires a BFL Commercial Use Agreement.'
+tags:
+- 🟡 Conditional — non-commercial
+- FLUX.2-dev Non-Commercial License
+- 32B flagship
+- Commercial needs BFL agreement
+- "Pick klein 4B for commercial"
+list: ai-mine
+added: '2026-05-28'
+category_order: 2
