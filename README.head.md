@@ -4,7 +4,7 @@
 
 > *Renamed from `awesome-ai-mine` on 2026-05-28. GitHub redirects the old URL.*
 
-Maintained by [Brethof AI](https://brethof.com). Companion to
+Maintained by [Brethof AI](https://brethof.ai). Companion to
 [awesome-private-ai](https://github.com/BrethofAI/awesome-private-ai)
 and [awesome-local-ai](https://github.com/BrethofAI/awesome-local-ai).
 
