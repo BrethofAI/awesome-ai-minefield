@@ -1,6 +1,8 @@
-# awesome-ai-mine
+# awesome-ai-minefield
 
 > The **AI Minefield** — AI model and tool licences read end-to-end, with the clause that matters quoted on each card. The ones we can recommend, and the ones with caveats you should know about before you ship.
+
+> *Renamed from `awesome-ai-mine` on 2026-05-28. GitHub redirects the old URL.*
 
 Maintained by [Brethof AI](https://brethof.com). Companion to
 [awesome-private-ai](https://github.com/BrethofAI/awesome-private-ai)
