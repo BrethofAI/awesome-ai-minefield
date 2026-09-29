@@ -3,11 +3,12 @@ slug: stable-diffusion-3-medium-large
 url: https://stability.ai/community-license-agreement
 category: image-generation-models
 category_label: Image Generation Models
-tagline: 'Free for non-commercial use, and for commercial use by individuals and businesses under USD 1 million in annual revenue. Above that revenue threshold you need a Stability AI Enterprise license. Outputs are yours.'
+tagline: 'Stability AI Community License (last updated 2024-07-05; applies to SD3 Medium and SD 3.5 Large). Free for research and non-commercial use, and commercial use under a revenue cap: "If at any time You or Your Affiliate(s), either individually or in aggregate, generate more than USD $1,000,000 in annual revenue ... any licenses granted to You under this Agreement shall terminate" — counted on total revenue, not just revenue from the model; above it you need an Enterprise licence. Commercial users must also register: "You must register with Stability AI." Outputs: "You own any outputs generated from the Models or Derivative Works to the extent permitted by applicable law."'
 tags:
 - 🟡 Conditional — revenue cap
 - Stability AI Community License
-- "<$1M revenue commercial OK"
+- <$1M revenue commercial OK
+- Registration required for commercial use
 - Outputs are yours
 list: ai-mine
 added: '2026-04-30'

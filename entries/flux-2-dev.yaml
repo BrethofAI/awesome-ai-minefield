@@ -3,13 +3,14 @@ slug: flux-2-dev
 url: https://huggingface.co/black-forest-labs/FLUX.2-dev
 category: image-generation-models
 category_label: Image Generation Models
-tagline: 'FLUX.2-dev Non-Commercial License. The 32B flagship of the FLUX.2 family — top output quality, biggest VRAM appetite, and the most restrictive licence of the three (klein 4B is Apache 2.0; klein 9B is non-commercial; dev 32B is also non-commercial). Personal projects, research, fine-tuning experiments OK. Commercial requires a BFL Commercial Use Agreement.'
+tagline: 'FLUX [dev] Non-Commercial License (v2.0 text in BFL''s flux2 repo; the gated Hugging Face card is tagged flux-non-commercial-license). The weights are non-commercial: "You may only access, use, Distribute, or create Derivatives of the FLUX [dev] Model or Derivatives for Non-Commercial Purposes." Outputs are a different story: "You may use Output for any purpose (including for commercial purposes), except as expressly prohibited herein. You may not use the Output to train, fine-tune, or distill a model that is competitive with a FLUX [dev] Model." (https://github.com/black-forest-labs/flux2/blob/main/model_licenses/LICENSE-FLUX-DEV). But "Non-Commercial Purpose" only covers use where you "do not receive any direct or indirect payment" — running it inside a paid product or for paying clients needs a BFL commercial licence. 32B flagship of the FLUX.2 family; klein 4B is the Apache 2.0 sibling.'
 tags:
-- 🟡 Conditional — non-commercial
-- FLUX.2-dev Non-Commercial License
-- 32B flagship
-- Commercial needs BFL agreement
-- "Pick klein 4B for commercial"
+- 🟡 Conditional — non-commercial weights
+- FLUX [dev] Non-Commercial License
+- Outputs commercial OK
+- No training competing models on outputs
+- Commercial use of the model needs BFL licence
+- Pick klein 4B for commercial
 list: ai-mine
 added: '2026-05-28'
 category_order: 2

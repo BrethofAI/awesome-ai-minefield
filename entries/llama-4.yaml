@@ -1,14 +1,15 @@
 name: Llama 4
 slug: llama-4
-url: https://www.llama.com/license/
+url: https://dev.meta.ai/llama/llama4/license
 category: open-weights-llms
 category_label: Open-Weights LLMs
-tagline: 'Free for commercial and research use — UNLESS your product, or one of its parent companies, had ≥ 700 million monthly active users at the Llama 3 release date. In that case you need a separate licence from Meta. For everyone else (i.e. almost everyone) this is genuinely commercial-friendly weights.'
+tagline: 'Llama 4 Community License (effective 2025-04-05). Commercial use is free unless you are huge: "If, on the Llama 4 version release date, the monthly active users ... is greater than 700 million monthly active users in the preceding calendar month, you must request a license from Meta" (counted across you and your affiliates). Two more conditions most teams do hit: attribution — you must "prominently display “Built with Llama”", and a model trained or fine-tuned on Llama outputs must "include “Llama” at the beginning of any such AI model name"; and an EU exclusion in the Acceptable Use Policy — for multimodal Llama 4 models, rights "are not being granted to you if you are an individual domiciled in, or a company with a principal place of business in, the European Union" (end users of a product built on them are not affected; https://dev.meta.ai/llama/llama4/use-policy). Note: llama.com/license now redirects to the Llama 2 licence — link the Llama 4 page.'
 tags:
-- 🟡 Conditional — MAU threshold
+- 🟡 Conditional — MAU threshold + attribution + EU exclusion
 - Llama 4 Community License
-- 700M MAU trigger
-- Otherwise commercial OK
+- 700M MAU trigger (Llama 4 release date)
+- '"Built with Llama" required'
+- No multimodal rights for EU-based licensees
 list: ai-mine
 added: '2026-04-30'
 category_order: 1

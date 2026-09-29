@@ -1,9 +1,9 @@
 name: Qwen-Image-Edit (Alibaba)
 slug: qwen-image-edit
-url: https://huggingface.co/Qwen/Qwen-Image-Edit
+url: https://github.com/QwenLM/Qwen-Image/blob/main/LICENSE
 category: image-generation-models
 category_label: Image Generation Models
-tagline: 'Apache 2.0. Alibaba''s natural-language image-editing companion to Qwen-Image — instruct it to edit existing images with text prompts. Same permissive licence as the base model: full commercial use, modification, fine-tuning, self-hosted deployment all allowed.'
+tagline: 'Apache 2.0. The Hugging Face card (and the later Qwen-Image-Edit-2509 / -2511 cards) declare license: apache-2.0, but the Hugging Face repo ships no LICENSE file — the licence text lives in the Qwen-Image GitHub repo, whose README states "Qwen-Image is licensed under Apache 2.0." Alibaba''s natural-language image-editing companion to Qwen-Image: full commercial use, modification, fine-tuning, self-hosted deployment. Note: the newer Qwen-Image-2.1 is NOT Apache (see its entry).'
 tags:
 - 🟢 Clean
 - Apache 2.0
