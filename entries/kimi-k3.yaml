@@ -1,0 +1,15 @@
+name: Kimi K3 (Moonshot AI)
+slug: kimi-k3
+url: https://huggingface.co/moonshotai/Kimi-K3/blob/main/LICENSE
+category: open-weights-llms
+category_label: Open-Weights LLMs
+tagline: 'Kimi K3 License (modified MIT, released 2026-06-13). Two conditions. Inference-API businesses above a revenue line need a deal: "If the Licensee or any of its affiliates operates a Model as a Service business, and the aggregate revenue of the Licensee and its affiliates exceeds 20 million US dollars ... the Licensee must enter into a separate agreement with Moonshot AI". And attribution at scale: above 100M MAU or US$20M monthly revenue, "Kimi K3" must be prominently displayed on the user interface. Neither applies to internal use, or to end-user products where model capabilities are "solely embedded within specific features". Otherwise commercial use, fine-tuning and redistribution are allowed.'
+tags:
+- 🟡 Conditional — MaaS revenue cap + attribution
+- Kimi K3 License (modified MIT)
+- MaaS over $20M revenue needs agreement
+- '"Kimi K3" attribution above 100M MAU / $20M monthly revenue'
+- Internal use exempt
+list: ai-mine
+added: '2026-09-29'
+category_order: 1

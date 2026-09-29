@@ -1,0 +1,15 @@
+name: MiniMax-M3 (MiniMax)
+slug: minimax-m3
+url: https://huggingface.co/MiniMaxAI/MiniMax-M3/blob/main/LICENSE
+category: open-weights-llms
+category_label: Open-Weights LLMs
+tagline: 'MiniMax Community License (released 2026-06-02). The base grant is "for non-commercial purposes"; commercial use is allowed on conditions: you "shall prominently display “Built with MiniMax M3”", and you must email MiniMax — a one-time notice below US$20M yearly revenue, "a separate, prior written authorization" above it. "Commercial Use" explicitly includes offering it via APIs or hosted services. An appended Prohibited Uses list includes any "military purpose". Read the whole thing before shipping.'
+tags:
+- 🟡 Conditional — attribution + notice / authorization
+- MiniMax Community License
+- '"Built with MiniMax M3" required'
+- Notice below $20M revenue, written authorization above
+- No military use
+list: ai-mine
+added: '2026-09-29'
+category_order: 1

@@ -1,0 +1,15 @@
+name: Qwen3.8-Flash-Next (Alibaba)
+slug: qwen3-8-flash-next
+url: https://huggingface.co/Qwen/Qwen3.8-Flash-Next/blob/main/LICENSE
+category: open-weights-llms
+category_label: Open-Weights LLMs
+tagline: 'Qwen Community License 1.0 (released 2026-08-24) — MIT-style grant with two conditions. First, a service-type exclusion: "If the licensee or any of its affiliates conducts a Model as a Service or AI Work Assistant business, the licensee shall obtain a separate license from Qwen before Using the Software or its derivative works for any commercial purpose." "AI Work Assistant" means a product "primarily designed for AI-assisted coding or office productivity" — so a paid coding assistant or inference API needs a deal; internal use is exempt. Second, attribution at scale: above 100M MAU or US$20M monthly revenue, the model name "must be prominently displayed on the user interface". Otherwise commercial use, fine-tuning and redistribution are allowed.'
+tags:
+- 🟡 Conditional — no MaaS / coding-assistant business
+- Qwen Community License 1.0
+- Separate licence for API or AI-assistant businesses
+- Attribution above 100M MAU / $20M monthly revenue
+- Internal use exempt
+list: ai-mine
+added: '2026-09-29'
+category_order: 1

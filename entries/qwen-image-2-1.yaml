@@ -1,0 +1,15 @@
+name: Qwen-Image-2.1 (Alibaba)
+slug: qwen-image-2-1
+url: https://huggingface.co/Qwen/Qwen-Image-2.1/blob/main/LICENSE
+category: image-generation-models
+category_label: Image Generation Models
+tagline: 'Qwen RESEARCH LICENSE AGREEMENT (release date 2026-09-20) — NOT Apache 2.0, unlike Qwen-Image and Qwen-Image-Edit. The grant is "FOR NON-COMMERCIAL PURPOSES ONLY", where "Non-Commercial" means "for research or evaluation purposes only", and "You shall not use the Materials for any commercial purpose without obtaining a separate commercial license from us." Models trained on its outputs and distributed must show "Built with Qwen" or "Improved using Qwen". Released 2026-09-14 on Hugging Face, with PE-T2I / PE-I2I variants under the same licence. For commercial image work stay on the Apache-2.0 Qwen-Image line.'
+tags:
+- 🟡 Conditional — non-commercial
+- Qwen Research License
+- Research / evaluation only
+- Commercial needs separate licence
+- Earlier Qwen-Image releases remain Apache 2.0
+list: ai-mine
+added: '2026-09-29'
+category_order: 2

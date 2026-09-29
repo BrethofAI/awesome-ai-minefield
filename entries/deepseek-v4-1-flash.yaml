@@ -1,0 +1,15 @@
+name: DeepSeek-V4.1-Flash (DeepSeek)
+slug: deepseek-v4-1-flash
+url: https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/blob/main/LICENSE
+category: open-weights-llms
+category_label: Open-Weights LLMs
+tagline: 'MIT License (released 2026-09-10; the V4-Flash and V4-Pro checkpoints from July–August 2026 are also tagged MIT). "Permission is hereby granted, free of charge, to any person obtaining a copy of this software ... to deal in the Software without restriction" — the only condition is keeping the copyright and permission notice. No revenue cap, no MAU trigger, no service-type exclusion, no attribution beyond the notice. Self-hosting is the clean path; DeepSeek''s hosted API has its own terms, which this entry does not cover.'
+tags:
+- 🟢 Clean
+- MIT
+- Full commercial use
+- No revenue or MAU threshold
+- Self-host OK
+list: ai-mine
+added: '2026-09-29'
+category_order: 1
