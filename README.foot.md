@@ -16,9 +16,8 @@ Open an issue with:
 - If you think a tool is missing because it sits in the unlisted-bad-actor pile, please don't open an issue about it — we know, that's the design.
 
 Entries live as one YAML file per tool under `entries/`. This
-README is generated from them by [`scripts/gen_awesome_readme.py`](https://github.com/BrethofAI/brethof-website/blob/main/scripts/gen_awesome_readme.py)
-in the [`brethof-website`](https://github.com/BrethofAI/brethof-website)
-repo — edit the YAML, not this README.
+README is generated from them by [`scripts/gen_awesome_readme.py`](scripts/gen_awesome_readme.py)
+— edit the YAML, not this README.
 
 ## License
 
