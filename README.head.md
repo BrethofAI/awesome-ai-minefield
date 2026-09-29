@@ -35,7 +35,7 @@ Every entry has a verdict pill as its first tag:
 
 - **🟢 Clean** — recommend without caveats. Full commercial use is OK
   out of the box. Examples: Apache 2.0 weights; Anthropic API where
-  zero-retention + no-training is the default tier behaviour.
+  no-training is the default and inputs/outputs are deleted within 30 days.
 - **🟡 Conditional** — usable, but a specific clause matters. The
   pill tells you what (`revenue cap`, `non-commercial`, `disclose AI`,
   `no competing service`, etc). Read the tagline before you ship.

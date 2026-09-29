@@ -1,13 +1,14 @@
 name: Claude Code / Claude Desktop
 slug: claude-code-claude-desktop
-url: https://www.anthropic.com/legal/commercial-terms
+url: https://code.claude.com/docs/en/data-usage
 category: ai-coding-assistants
 category_label: AI Coding Assistants
-tagline: 'Code you submit via Claude Code / Claude Desktop is governed by Anthropic''s Commercial Terms — same zero-retention and no-training-on-inputs defaults as the raw API. Runs locally on your machine; prompts are sent to Anthropic for inference. No code-snippet harvesting.'
+tagline: 'Depends on the account you sign in with. Free, Pro and Max accounts fall under Anthropic''s Consumer Terms: "We will train new models using data from Free, Pro, and Max accounts when this setting is on (including when you use Claude Code from these accounts)" — retention is 5 years with the setting on, 30 days with it off. Team, Enterprise, API and cloud-platform (Bedrock, Google Cloud, Foundry) use falls under the Commercial Terms: "Anthropic does not train generative models using code or prompts sent to Claude Code under commercial terms", standard retention 30 days (https://www.anthropic.com/legal/commercial-terms). Turn the model-improvement setting off on consumer plans, or use a commercial account, before sending client code. Runs locally; prompts go to Anthropic (or your cloud provider) for inference.'
 tags:
-- 🟢 Clean
-- Inherits Anthropic Commercial Terms
-- No code harvesting
+- 🟡 Conditional — depends on account type
+- Consumer Terms on Free / Pro / Max
+- Commercial Terms on Team / Enterprise / API
+- Training toggle on consumer plans
 - Local-client, cloud-inference
 list: ai-mine
 added: '2026-04-30'

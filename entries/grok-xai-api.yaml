@@ -1,14 +1,14 @@
-name: Grok (xAI API)
+name: Grok (SpaceXAI API, formerly xAI)
 slug: grok-xai-api
 url: https://x.ai/legal/terms-of-service-enterprise
 category: commercial-cloud-llm-apis
 category_label: Commercial Cloud LLM APIs
-tagline: 'API content is auto-deleted within 30 days and not used for training by default; the consumer Grok privacy policy does NOT apply to API data — read the enterprise terms instead. Caveat: the consumer Grok app trains on your public X posts by default outside the EU. The API and the consumer product are two different products with two different deals.'
+tagline: 'xAI now contracts as "SpaceXAI LLC" (Enterprise terms last updated 2026-08-14). API content is not used for training: "SpaceXAI will not use any User Content to train any foundation models, large language models, or other artificial intelligence systems" — note the clause continues "subject to disclosures to Customer and Customer-controlled user settings", so check your console settings. Retention: "All User Content will be automatically and permanently deleted no later than 30 days after the end of the interaction or session", unless a different period is agreed or legally required. Customer "owns all right, title, and interest in the Output". The consumer Grok privacy policy is a different deal: it says the service uses public X posts "to develop and improve our Service" (https://x.ai/legal/privacy-policy).'
 tags:
 - 🟢 Clean
-- xAI API Enterprise Terms 2026
+- SpaceXAI Enterprise Terms (2026-08-14)
 - 30-day auto-delete
-- No training (API default)
+- No training (API, subject to settings)
 - Consumer tier differs (read separately)
 list: ai-mine
 added: '2026-04-30'

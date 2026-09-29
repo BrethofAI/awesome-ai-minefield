@@ -35,7 +35,7 @@ Every entry has a verdict pill as its first tag:
 
 - **🟢 Clean** — recommend without caveats. Full commercial use is OK
   out of the box. Examples: Apache 2.0 weights; Anthropic API where
-  zero-retention + no-training is the default tier behaviour.
+  no-training is the default and inputs/outputs are deleted within 30 days.
 - **🟡 Conditional** — usable, but a specific clause matters. The
   pill tells you what (`revenue cap`, `non-commercial`, `disclose AI`,
   `no competing service`, etc). Read the tagline before you ship.
@@ -81,10 +81,10 @@ look at the terms.
 
 Cloud LLM APIs you can call from a product without giving up your customers' inputs to the model trainers. The relevant clauses are in the API terms (NOT the consumer privacy policy — those are almost always different on the same provider's website).
 
-- **[Anthropic API (Claude)](https://www.anthropic.com/legal/commercial-terms)** — 🟢 Clean · Commercial Terms 2025 · No training on inputs (default) · Outputs are yours · Zero retention  
-  Anthropic does not train on customer API inputs or outputs by default. Zero retention except for a short safety-classification window and the prompt cache. Outputs are yours; commercial use of generated content is allowed. (Different terms apply to the free Claude.ai consumer tier — read that separately.)
-- **[Grok (xAI API)](https://x.ai/legal/terms-of-service-enterprise)** — 🟢 Clean · xAI API Enterprise Terms 2026 · 30-day auto-delete · No training (API default) · Consumer tier differs (read separately)  
-  API content is auto-deleted within 30 days and not used for training by default; the consumer Grok privacy policy does NOT apply to API data — read the enterprise terms instead. Caveat: the consumer Grok app trains on your public X posts by default outside the EU. The API and the consumer product are two different products with two different deals.
+- **[Anthropic API (Claude)](https://www.anthropic.com/legal/commercial-terms)** — 🟢 Clean · Commercial Terms (effective 2025-06-17) · No training on inputs (default) · Outputs are yours · 30-day retention (ZDR by agreement)  
+  Anthropic does not train on customer API inputs or outputs by default: "Anthropic may not train models on Customer Content from Services." Outputs are yours: "Customer (a) retains all rights to its Inputs, and (b) owns its Outputs." Retention is NOT zero by default — per Anthropic's Privacy Center, "we automatically delete inputs and outputs on our backend within 30 days of receipt or generation", with exceptions (e.g. Files API, usage-policy enforcement, law); zero data retention requires a separate agreement (https://privacy.claude.com/en/articles/7996866). Commercial use of generated content is allowed. (Different terms apply to the free Claude.ai consumer tier — read that separately.)
+- **[Grok (SpaceXAI API, formerly xAI)](https://x.ai/legal/terms-of-service-enterprise)** — 🟢 Clean · SpaceXAI Enterprise Terms (2026-08-14) · 30-day auto-delete · No training (API, subject to settings) · Consumer tier differs (read separately)  
+  xAI now contracts as "SpaceXAI LLC" (Enterprise terms last updated 2026-08-14). API content is not used for training: "SpaceXAI will not use any User Content to train any foundation models, large language models, or other artificial intelligence systems" — note the clause continues "subject to disclosures to Customer and Customer-controlled user settings", so check your console settings. Retention: "All User Content will be automatically and permanently deleted no later than 30 days after the end of the interaction or session", unless a different period is agreed or legally required. Customer "owns all right, title, and interest in the Output". The consumer Grok privacy policy is a different deal: it says the service uses public X posts "to develop and improve our Service" (https://x.ai/legal/privacy-policy).
 
 ## Open-Weights LLMs
 
@@ -116,8 +116,8 @@ Image-generation model weights. Mix of Apache 2.0 (commercial OK) and bespoke ve
 
 IDE / desktop apps that route your code through a cloud LLM. The terms inherit from the underlying API in most cases — we link the parent entry where that's true.
 
-- **[Claude Code / Claude Desktop](https://www.anthropic.com/legal/commercial-terms)** — 🟢 Clean · Inherits Anthropic Commercial Terms · No code harvesting · Local-client, cloud-inference  
-  Code you submit via Claude Code / Claude Desktop is governed by Anthropic's Commercial Terms — same zero-retention and no-training-on-inputs defaults as the raw API. Runs locally on your machine; prompts are sent to Anthropic for inference. No code-snippet harvesting.
+- **[Claude Code / Claude Desktop](https://code.claude.com/docs/en/data-usage)** — 🟡 Conditional — depends on account type · Consumer Terms on Free / Pro / Max · Commercial Terms on Team / Enterprise / API · Training toggle on consumer plans · Local-client, cloud-inference  
+  Depends on the account you sign in with. Free, Pro and Max accounts fall under Anthropic's Consumer Terms: "We will train new models using data from Free, Pro, and Max accounts when this setting is on (including when you use Claude Code from these accounts)" — retention is 5 years with the setting on, 30 days with it off. Team, Enterprise, API and cloud-platform (Bedrock, Google Cloud, Foundry) use falls under the Commercial Terms: "Anthropic does not train generative models using code or prompts sent to Claude Code under commercial terms", standard retention 30 days (https://www.anthropic.com/legal/commercial-terms). Turn the model-improvement setting off on consumer plans, or use a commercial account, before sending client code. Runs locally; prompts go to Anthropic (or your cloud provider) for inference.
 
 ## Video Generation Models
 
