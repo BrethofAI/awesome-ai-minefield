@@ -5,9 +5,9 @@ category: open-weights-llms
 category_label: Open-Weights LLMs
 tagline: 'GLM-5.3 License (released 2026-08-25) — MIT-style grant with one condition that only bites at hyperscaler size: "If the Licensee or any of its affiliates operates a Model as a Service business, and the aggregate revenue of the Licensee and its affiliates exceeds 10 billion US dollars ... the Licensee must pass Z.AI''s security review before using the Software or its derivative works for any commercial purpose." For everyone else: commercial use, fine-tuning and redistribution with the copyright notice kept. The smaller GLM-5.3-Flash (and GLM-5.2) are plain MIT.'
 tags:
-- 🟡 Conditional — MaaS security review above $10B revenue
+- 🟢 Clean
 - GLM-5.3 License (modified MIT)
-- Effectively unrestricted for small teams
+- Security review only for MaaS businesses above $10B revenue
 - GLM-5.3-Flash is plain MIT
 list: ai-mine
 added: '2026-09-29'
