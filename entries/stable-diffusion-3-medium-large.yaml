@@ -1,15 +1,17 @@
-name: Stable Diffusion 3 Medium / Large
+name: Stable Diffusion 3.5 / SD3 Medium (Stability AI)
 slug: stable-diffusion-3-medium-large
 url: https://stability.ai/community-license-agreement
 category: image-generation-models
 category_label: Image Generation Models
-tagline: 'Stability AI Community License (last updated 2024-07-05; applies to SD3 Medium and SD 3.5 Large). Free for research and non-commercial use, and commercial use under a revenue cap: "If at any time You or Your Affiliate(s), either individually or in aggregate, generate more than USD $1,000,000 in annual revenue ... any licenses granted to You under this Agreement shall terminate" — counted on total revenue, not just revenue from the model; above it you need an Enterprise licence. Commercial users must also register: "You must register with Stability AI." Outputs: "You own any outputs generated from the Models or Derivative Works to the extent permitted by applicable law."'
+tagline: 'Stability AI Community License (last updated 2024-07-05; covers SD3 Medium and SD 3.5 Large / Large Turbo / Medium). Free for research and non-commercial use, and for commercial use under a revenue cap: "If at any time You or Your Affiliate(s), either individually or in aggregate, generate more than USD $1,000,000 in annual revenue ... any licenses granted to You under this Agreement shall terminate", counted "regardless of whether that revenue is generated directly or indirectly from the Stability AI Materials or Derivative Works"; above it you need an Enterprise licence. Commercial users must register: "You must register with Stability AI." Shipping it in a product also means attribution: you must "prominently display "Powered by Stability AI" on a related website, user interface, blogpost, about page, or product documentation" and include the licence NOTICE file. Outputs: "You own any outputs generated from the Models or Derivative Works to the extent permitted by applicable law."'
 tags:
-- 🟡 Conditional — revenue cap
+- 🟡 Conditional — revenue cap + attribution
 - Stability AI Community License
 - <$1M revenue commercial OK
 - Registration required for commercial use
+- '"Powered by Stability AI" required'
 - Outputs are yours
 list: ai-mine
 added: '2026-04-30'
 category_order: 2
+verified: '2026-10-05'

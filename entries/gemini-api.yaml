@@ -1,0 +1,16 @@
+name: Google Gemini API / AI Studio
+slug: gemini-api
+url: https://ai.google.dev/gemini-api/terms
+category: commercial-cloud-llm-apis
+category_label: Commercial Cloud LLM APIs
+tagline: 'Gemini API Additional Terms (effective 2026-03-23). Training depends on whether you pay. Unpaid Services (AI Studio, free quota): "Google uses the content you submit to the Services and any generated responses to provide, improve, and develop Google products and services and machine learning technologies", human reviewers may read it, and "Do not submit sensitive, confidential, or personal information to the Unpaid Services." Paid Services: "Google doesn''t use your prompts (including associated system instructions, cached content, and files such as images, videos, or documents) or responses to improve our products"; prompts are logged for a limited period for abuse detection. The API is paid "only when accessing the API through a Cloud Project associated with an active billing account". In the EEA, Switzerland and the UK the paid-tier data terms "apply to all Services, including Google AI Studio and unpaid quota in the Gemini API". Outputs: "Google won''t claim ownership over that content." You "may not use the Services to develop models that compete with the Services".'
+tags:
+- 🟡 Conditional — free tier trains on your data
+- Gemini API Additional Terms (2026-03-23)
+- Paid tier no training
+- EEA / CH / UK free tier treated as paid
+- No competing models
+list: ai-mine
+added: '2026-10-05'
+category_order: 0
+verified: '2026-10-05'

@@ -1,0 +1,15 @@
+name: gpt-oss-120b / gpt-oss-20b (OpenAI)
+slug: gpt-oss
+url: https://huggingface.co/openai/gpt-oss-120b/blob/main/LICENSE
+category: open-weights-llms
+category_label: Open-Weights LLMs
+tagline: 'Apache 2.0 (released August 2025), plus a one-line usage policy shipped alongside: "By using OpenAI gpt-oss-120b, you agree to comply with all applicable law." No revenue cap, MAU trigger, attribution or service-type exclusion. The 20B variant runs on a single consumer GPU or a laptop with enough memory; the 120B on one 80GB GPU. OpenAI''s hosted API is a separate product with separate terms.'
+tags:
+- 🟢 Clean
+- Apache 2.0
+- Full commercial use
+- Self-host OK
+list: ai-mine
+added: '2026-10-05'
+category_order: 1
+verified: '2026-10-05'

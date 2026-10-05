@@ -1,0 +1,16 @@
+name: Qwen3.8-27B (Alibaba)
+slug: qwen3-8-27b
+url: https://huggingface.co/Qwen/Qwen3.8-27B/blob/main/LICENSE
+category: open-weights-llms
+category_label: Open-Weights LLMs
+tagline: 'Apache 2.0 (released August 2026; LICENSE file in the Hugging Face repo) — unlike its siblings Qwen3.8-Flash-Next (Qwen Community License, no MaaS / coding-assistant business) and Qwen3.8-Max (separate licence for MaaS / AI Work Assistant businesses above US$50M revenue). Apache grants a "perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license": no service-type exclusion, no attribution threshold — you can build a paid coding assistant or an inference API on it. The clean pick in the Qwen3.8 family for a small commercial team.'
+tags:
+- 🟢 Clean
+- Apache 2.0
+- Full commercial use
+- No MaaS / coding-assistant exclusion (unlike Flash-Next)
+- Self-host OK
+list: ai-mine
+added: '2026-10-05'
+category_order: 1
+verified: '2026-10-05'

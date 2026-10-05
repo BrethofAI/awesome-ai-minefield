@@ -1,15 +1,17 @@
-name: Qwen-Image (Alibaba)
+name: Qwen-Image / Qwen-Image-2512 (Alibaba)
 slug: qwen-image
 url: https://github.com/QwenLM/Qwen-Image
 category: image-generation-models
 category_label: Image Generation Models
-tagline: 'Apache 2.0. Strong open-weights text-to-image model from Alibaba with notable strength in complex text rendering inside images (a long-standing weak point for diffusion models). Full commercial use, modification, fine-tuning, self-hosted deployment — no restrictions.'
+tagline: 'Apache 2.0: "Qwen-Image is licensed under Apache 2.0." (Qwen-Image GitHub README; LICENSE file in the same repo). The newest Apache checkpoint of the text-to-image line is Qwen-Image-2512 (Hugging Face, December 2025, card tagged license: apache-2.0 — the HF repo ships no LICENSE file, the text lives on GitHub); Qwen-Image-Layered (December 2025) is also Apache. Strong open-weights text-to-image with notable strength in complex text rendering inside images. Full commercial use, modification, fine-tuning, self-hosted deployment. Note: the GitHub repo has not been updated since February 2026, and the newer Qwen-Image-2.1 (September 2026) is NOT Apache — research-only licence, see its entry.'
 tags:
 - 🟢 Clean
 - Apache 2.0
 - Full commercial use
 - Self-host OK
 - Strong text-in-image rendering
+- Qwen-Image-2.1 is NOT Apache (separate entry)
 list: ai-mine
 added: '2026-05-28'
 category_order: 2
+verified: '2026-10-05'

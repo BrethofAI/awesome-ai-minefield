@@ -1,0 +1,18 @@
+name: LTX-2.5 (Lightricks)
+slug: ltx-2-5
+url: https://github.com/Lightricks/LTX-2/blob/main/LICENSE-2_x
+category: video-generation-models
+category_label: Video Generation Models
+tagline: 'LTX-2.x Community License Agreement (license date 2026-08-11), "applicable to all LTX-2.5 versions released since August 11, 2026, and all future releases of LTX-2.x under this license". Free unless you are big: "Entities with annual revenues of at least $10,000,000 (the "Commercial Entities") are required to obtain a paid license for any use (excluding use solely for a Non-Commercial Purpose as set forth in Section 2.2)", counted across affiliates; the Non-Commercial carve-out covers only personal use and testing/evaluation in a non-production environment. Unlicensed use by such an entity means "you shall pay Licensor the license fees owed for the period such Commercial Entity used LTX-2.x ... within thirty (30) days of Licensor''s written demand". Conditions that apply to everyone: you "shall not remove, disable, alter, or circumvent, any safety or security measures, disclosures, metadata, watermarking, content provenance, latent disclosure, or other transparency features" (breach lets Lightricks revoke the licence immediately) and must comply with "Regulation (EU) 2024/1689 (the "EU AI Act") and the California AI Transparency Act"; Attachment A bars placing content in any context "without expressly and intelligibly disclaiming that the information and/or content is machine generated", deepfakes without consent, use in a product that "directly competes with Licensor''s commercial products or services", and, "For commercial use only: To train, improve, or fine-tune any other machine learning model, artificial intelligence system, or competing model". Outputs: "Licensor claims no rights in the Output you generate using LTX-2.x." Note: the older LTX-2 through LTX-2.3 checkpoints stay under the LTX-2 Community License of 2026-01-05 (https://github.com/Lightricks/LTX-2/blob/main/LICENSE-2): same $10M line, but unlicensed use triggers liquidated damages "equal to double the amount that would otherwise have been paid".'
+tags:
+- 🟡 Conditional — multiple clauses
+- LTX-2.x Community License (2.5+)
+- Paid licence at $10M+ revenue
+- Keep watermark / provenance / latent disclosure
+- Disclose AI-generated content
+- No competing service
+- LTX-2.3 and older on LTX-2 Community License
+list: ai-mine
+added: '2026-05-28'
+category_order: 4
+verified: '2026-10-05'

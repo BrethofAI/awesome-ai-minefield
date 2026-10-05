@@ -1,0 +1,16 @@
+name: Mistral Small 4 (Mistral AI)
+slug: mistral-small-4
+url: https://huggingface.co/mistralai/Mistral-Small-4-119B-2603
+category: open-weights-llms
+category_label: Open-Weights LLMs
+tagline: 'Apache 2.0: "This model is licensed under the Apache 2.0 License." (model card, which also lists "Apache 2.0 License: Open-source license for both commercial and non-commercial use"). 119B MoE released 2026. Full commercial use, fine-tuning, redistribution, self-hosting. Careful with the bigger sibling: Mistral Medium 3.5 ships under a "Modified MIT License" that says "You are not authorized to exercise any rights under this license if the global consolidated monthly revenue of your company (or that of your employer) exceeds $20 million".'
+tags:
+- 🟢 Clean
+- Apache 2.0
+- Full commercial use
+- Self-host OK
+- Medium 3.5 is NOT Apache ($20M/month revenue cap)
+list: ai-mine
+added: '2026-10-05'
+category_order: 1
+verified: '2026-10-05'

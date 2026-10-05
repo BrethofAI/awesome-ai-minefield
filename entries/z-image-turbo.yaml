@@ -1,15 +1,16 @@
-name: Z-Image Turbo (Tongyi-MAI)
+name: Z-Image Turbo / Z-Image (Tongyi-MAI)
 slug: z-image-turbo
-url: https://huggingface.co/Tongyi-MAI/Z-Image-Turbo
+url: https://github.com/Tongyi-MAI/Z-Image/blob/main/LICENSE
 category: image-generation-models
 category_label: Image Generation Models
-tagline: 'Apache 2.0. 6B-parameter text-to-image model from Tongyi-MAI (Alibaba''s AI division) optimised for speed — ultra-fast photorealistic generation. Released November 2025 under one of the most permissive AI-model licences in circulation: full commercial use, modification, redistribution, self-hosted deployment.'
+tagline: 'Apache 2.0 (LICENSE in the Tongyi-MAI/Z-Image GitHub repo; both Hugging Face cards tagged license: apache-2.0): a "perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license" to use, modify and redistribute. 6B-parameter text-to-image family from Tongyi-MAI (Alibaba). Z-Image Turbo (November 2025) is the distilled, few-step model for ultra-fast photorealistic generation; Z-Image, the full base model for fine-tuning and higher diversity, followed on 2026-01-27 under the same licence. Full commercial use, modification, redistribution, self-hosted deployment. Z-Image-Edit is announced but not yet released.'
 tags:
 - 🟢 Clean
 - Apache 2.0
-- 6B params (fast)
+- 6B params (Turbo = fast, base = fine-tunable)
 - Full commercial use
 - Self-host OK
 list: ai-mine
 added: '2026-05-28'
 category_order: 2
+verified: '2026-10-05'
