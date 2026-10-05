@@ -1,0 +1,9 @@
+# awesome-ai-minefield
+
+> A curated list of AI tools with license analysis, quoting key clauses on data training, commercial use, and output ownership.
+
+The project is a static documentation repository maintained by Brethof AI. It categorizes tools into sections like Cloud LLM APIs, Open-Weights LLMs, and Image Generation Models. Each entry includes a verdict pill and direct quotes from the relevant license or terms of service.
+
+## Docs
+
+- [awesome-ai-minefield](https://raw.githubusercontent.com/BrethofAI/awesome-ai-minefield/main/README.md): AI tool licences read end-to-end, quoting key clauses on training, commercial use, output ownership, and indemnification.
