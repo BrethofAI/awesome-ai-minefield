@@ -67,6 +67,7 @@ directly, but we are an AI marketing team, not your lawyers. For
 anything you're betting your business on, have an actual attorney
 look at the terms.
 
+<!-- LIST:START -->
 ## Contents
 
 - [Commercial Cloud LLM APIs](#commercial-cloud-llm-apis) (2)
@@ -139,6 +140,8 @@ Video-generation model weights. New, fast-moving, and the licences are evolving 
   LTX-2 Community License Agreement (dated 2026-01-05; covers LTX-2 through LTX-2.3). Free unless you are big: "Entities with annual revenues of at least $10,000,000 (the "Commercial Entities") are required to obtain a paid commercial use license", counted across affiliates. Unlicensed commercial use by such an entity triggers liquidated damages "equal to double the amount that would otherwise have been paid". Use restrictions apply to everyone, including outputs: no content placed in context "without expressly and intelligibly disclaiming that the information and/or content is machine generated", no deepfakes without consent, and no use in a product that "directly competes with Licensor's commercial products". The licence has no explicit output-ownership clause. Newer releases (LTX-2.5 onward, from 2026-08-11) use a separate LTX-2.x Community License (https://github.com/Lightricks/LTX-2/blob/main/LICENSE-2_x): same $10M threshold, but the 2× damages become fees owed within 30 days of demand, big entities get a non-commercial carve-out, and you must not remove watermarking, provenance or "latent disclosure" features, with explicit EU AI Act compliance.
 - **[Wan 2.2 (Alibaba Tongyi Lab)](https://github.com/Wan-Video/Wan2.2)** — 🟢 Clean · Apache 2.0 · Full commercial use · Weights + code open · No vendor lock-in  
   Apache 2.0. "The models in this repository are licensed under the Apache 2.0 License. We claim no rights over the your generated contents" (Wan2.2 README; Hugging Face cards also tagged apache-2.0). Full commercial use, modification, redistribution. No revenue cap, no disclosure requirement, no anti-competition clause — the README asks that use not violate laws or cause harm. Mixture-of-experts video generation, text-to-video and image-to-video.
+
+<!-- LIST:END -->
 
 ## Related work
 
