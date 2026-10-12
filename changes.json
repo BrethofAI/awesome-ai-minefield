@@ -1,12 +1,5 @@
 {
- "checked": "2026-10-05",
- "since": false,
- "changes": [
-  {
-   "slug": "qwen-image",
-   "name": "Qwen-Image / Qwen-Image-2512 (Alibaba)",
-   "kind": "dormant",
-   "detail": "no push for 237 days (since 2026-02-10)"
-  }
- ]
+ "checked": "2026-10-12",
+ "since": true,
+ "changes": []
 }

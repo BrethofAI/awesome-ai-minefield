@@ -1,3 +1,3 @@
-## Facts 2026-10-05 — 24 entries, 1 change(s) (first run: baseline only)
+## Facts 2026-10-12 — 24 entries, 0 change(s)
 
-- **dormant** Qwen-Image / Qwen-Image-2512 (Alibaba): no push for 237 days (since 2026-02-10)
+No changes.
