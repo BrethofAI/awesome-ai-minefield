@@ -3,14 +3,16 @@ slug: qwen-image-2-1
 url: https://huggingface.co/Qwen/Qwen-Image-2.1/blob/main/LICENSE
 category: image-generation-models
 category_label: Image Generation Models
-tagline: 'Qwen RESEARCH LICENSE AGREEMENT (release date 2026-09-20) — NOT Apache 2.0, unlike Qwen-Image and Qwen-Image-Edit. The grant is "FOR NON-COMMERCIAL PURPOSES ONLY", where "Non-Commercial" means "for research or evaluation purposes only", and "You shall not use the Materials for any commercial purpose without obtaining a separate commercial license from us." Models trained on its outputs and distributed must show "Built with Qwen" or "Improved using Qwen". Released 2026-09-14 on Hugging Face, with PE-T2I / PE-I2I variants under the same licence. For commercial image work stay on the Apache-2.0 Qwen-Image line.'
+tagline: 'Qwen RESEARCH LICENSE AGREEMENT (release date 2026-09-20) — NOT Apache 2.0, unlike Qwen-Image and Qwen-Image-Edit. It covers every open 2.1 checkpoint: Qwen-Image-2.1 (released 2026-09-20), Qwen-Image-2.1-Turbo (8-step generation and editing, released 2026-10-09) and the PE-T2I / PE-I2I prompt-enhancer models. All four Hugging Face cards are tagged license_name: qwen-research and ship the same LICENSE as the GitHub repo (https://github.com/QwenLM/Qwen-Image-2.1/blob/main/LICENSE). Section 2a grants the right "to use, reproduce, distribute, copy, create derivative works of, and make modifications to the Materials FOR NON-COMMERCIAL PURPOSES ONLY", where "Non-Commercial" means "for research or evaluation purposes only"; 2b: "You shall not use the Materials for any commercial purpose without obtaining a separate commercial license from us." So no 2.1 weights, Turbo included, are commercially usable as released. Models trained on its outputs and distributed must show "Built with Qwen" or "Improved using Qwen"; the licence has no clause allowing commercial use of outputs. The README also announces hosted Qwen-Image-2.1 Pro and Turbo APIs on Alibaba Cloud Model Studio (2026-10-09); those are a separate service whose terms this card does not cover. For commercial self-hosted image work stay on the Apache-2.0 Qwen-Image line.'
 tags:
 - 🟡 Conditional — non-commercial
 - Qwen Research License
 - Research / evaluation only
+- All 2.1 weights incl. Turbo
 - Commercial needs separate licence
+- Hosted Pro / Turbo API is a separate service
 - Earlier Qwen-Image releases remain Apache 2.0
 list: ai-mine
 added: '2026-09-29'
 category_order: 2
-verified: '2026-10-05'
+verified: '2026-10-13'
