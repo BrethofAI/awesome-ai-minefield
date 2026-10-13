@@ -1,8 +1,8 @@
 {
- "checked": "2026-10-05",
+ "checked": "2026-10-12",
  "entries": {
   "anthropic-api-claude": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "name": "Anthropic API (Claude)",
    "url": "https://www.anthropic.com/legal/commercial-terms",
    "web": {
@@ -12,7 +12,7 @@
    }
   },
   "claude-code-claude-desktop": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "name": "Claude Code / Claude Desktop",
    "url": "https://code.claude.com/docs/en/data-usage",
    "web": {
@@ -22,7 +22,7 @@
    }
   },
   "deepseek-v4-1-flash": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "name": "DeepSeek-V4.1-Flash (DeepSeek)",
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/blob/main/LICENSE",
    "web": {
@@ -32,7 +32,7 @@
    }
   },
   "flux-2-dev": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "name": "FLUX.2 [dev] (Black Forest Labs)",
    "url": "https://huggingface.co/black-forest-labs/FLUX.2-dev",
    "web": {
@@ -42,7 +42,7 @@
    }
   },
   "flux-2-klein-4b": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "name": "FLUX.2 [klein] 4B (Black Forest Labs)",
    "url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B/blob/main/LICENSE.md",
    "web": {
@@ -52,7 +52,7 @@
    }
   },
   "flux-2-klein-9b": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "name": "FLUX.2 [klein] 9B (Black Forest Labs)",
    "url": "https://github.com/black-forest-labs/flux2/blob/main/model_licenses/LICENSE-FLUX-NON-COMMERICAL",
    "web": {
@@ -62,7 +62,7 @@
    }
   },
   "gemini-api": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "name": "Google Gemini API / AI Studio",
    "url": "https://ai.google.dev/gemini-api/terms",
    "web": {
@@ -72,7 +72,7 @@
    }
   },
   "gemma-4": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "name": "Gemma 4 (Google DeepMind)",
    "url": "https://ai.google.dev/gemma/apache_2",
    "web": {
@@ -82,7 +82,7 @@
    }
   },
   "glm-5-3": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "name": "GLM-5.3 (Z.AI)",
    "url": "https://huggingface.co/zai-org/GLM-5.3/blob/main/LICENSE",
    "web": {
@@ -92,7 +92,7 @@
    }
   },
   "gpt-oss": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "name": "gpt-oss-120b / gpt-oss-20b (OpenAI)",
    "url": "https://huggingface.co/openai/gpt-oss-120b/blob/main/LICENSE",
    "web": {
@@ -102,17 +102,17 @@
    }
   },
   "grok-xai-api": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "name": "Grok (SpaceXAI API, formerly xAI)",
    "url": "https://x.ai/legal/terms-of-service-enterprise",
    "web": {
     "final": "https://x.ai/legal/terms-of-service-enterprise",
     "status": 200,
-    "title": "Terms of Service - Enterprise | SpaceXAI"
+    "title": "Terms of Service - Enterprise | SpaceXSI"
    }
   },
   "kimi-k3": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "name": "Kimi K3 (Moonshot AI)",
    "url": "https://huggingface.co/moonshotai/Kimi-K3/blob/main/LICENSE",
    "web": {
@@ -122,17 +122,17 @@
    }
   },
   "llama-4": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "name": "Llama 4",
    "url": "https://dev.meta.ai/llama/llama4/license",
    "web": {
     "final": "https://dev.meta.ai/llama/llama4/license",
     "status": 200,
-    "title": null
+    "title": "Llama 4 Community License Agreement"
    }
   },
   "ltx-2-5": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "name": "LTX-2.5 (Lightricks)",
    "url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE-2_x",
    "web": {
@@ -142,7 +142,7 @@
    }
   },
   "minimax-m3": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "name": "MiniMax-M3 (MiniMax)",
    "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3/blob/main/LICENSE",
    "web": {
@@ -152,7 +152,7 @@
    }
   },
   "mistral-small-4": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "name": "Mistral Small 4 (Mistral AI)",
    "url": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603",
    "web": {
@@ -162,7 +162,7 @@
    }
   },
   "qwen-image": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "github": {
     "archived": false,
     "description": "Qwen-Image is a powerful image generation foundation model capable of complex text rendering and precise image editing.",
@@ -171,14 +171,14 @@
     "release": null,
     "released": null,
     "repo": "QwenLM/Qwen-Image",
-    "stars": 8384
+    "stars": 8394
    },
    "github_ref": "QwenLM/Qwen-Image",
    "name": "Qwen-Image / Qwen-Image-2512 (Alibaba)",
    "url": "https://github.com/QwenLM/Qwen-Image"
   },
   "qwen-image-2-1": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "name": "Qwen-Image-2.1 (Alibaba)",
    "url": "https://huggingface.co/Qwen/Qwen-Image-2.1/blob/main/LICENSE",
    "web": {
@@ -188,7 +188,7 @@
    }
   },
   "qwen-image-edit": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "name": "Qwen-Image-Edit (Alibaba)",
    "url": "https://github.com/QwenLM/Qwen-Image/blob/main/LICENSE",
    "web": {
@@ -198,7 +198,7 @@
    }
   },
   "qwen3-8-27b": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "name": "Qwen3.8-27B (Alibaba)",
    "url": "https://huggingface.co/Qwen/Qwen3.8-27B/blob/main/LICENSE",
    "web": {
@@ -208,7 +208,7 @@
    }
   },
   "qwen3-8-flash-next": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "name": "Qwen3.8-Flash-Next (Alibaba)",
    "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/blob/main/LICENSE",
    "web": {
@@ -218,7 +218,7 @@
    }
   },
   "stable-diffusion-3-medium-large": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "name": "Stable Diffusion 3.5 / SD3 Medium (Stability AI)",
    "url": "https://stability.ai/community-license-agreement",
    "web": {
@@ -228,7 +228,7 @@
    }
   },
   "wan-2-2": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "github": {
     "archived": false,
     "description": "Wan: Open and Advanced Large-Scale Video Generative Models",
@@ -237,14 +237,14 @@
     "release": null,
     "released": null,
     "repo": "Wan-Video/Wan2.2",
-    "stars": 17734
+    "stars": 17868
    },
    "github_ref": "Wan-Video/Wan2.2",
    "name": "Wan 2.2 (Alibaba Tongyi Lab)",
    "url": "https://github.com/Wan-Video/Wan2.2"
   },
   "z-image-turbo": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "name": "Z-Image Turbo / Z-Image (Tongyi-MAI)",
    "url": "https://github.com/Tongyi-MAI/Z-Image/blob/main/LICENSE",
    "web": {
