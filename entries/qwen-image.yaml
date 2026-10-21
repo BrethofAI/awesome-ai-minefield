@@ -3,7 +3,7 @@ slug: qwen-image
 url: https://github.com/QwenLM/Qwen-Image
 category: image-generation-models
 category_label: Image Generation Models
-tagline: 'Apache 2.0: "Qwen-Image is licensed under Apache 2.0." (Qwen-Image GitHub README; LICENSE file in the same repo). The newest Apache checkpoint of the text-to-image line is Qwen-Image-2512 (Hugging Face, December 2025, card tagged license: apache-2.0 — the HF repo ships no LICENSE file, the text lives on GitHub); Qwen-Image-Layered (December 2025) is also Apache. Strong open-weights text-to-image with notable strength in complex text rendering inside images. Full commercial use, modification, fine-tuning, self-hosted deployment. Note: the GitHub repo has not been updated since February 2026, and the newer Qwen-Image-2.1 (September 2026) is NOT Apache — research-only licence, see its entry.'
+tagline: 'Apache 2.0: "Qwen-Image is licensed under Apache 2.0." (Qwen-Image GitHub README; LICENSE file in the same repo). The newest Apache checkpoint of the text-to-image line is Qwen-Image-2512 (Hugging Face, December 2025, card tagged license: apache-2.0 — the HF repo ships no LICENSE file, the text lives on GitHub); Qwen-Image-Layered (December 2025) is also Apache. Strong open-weights text-to-image with notable strength in complex text rendering inside images. Full commercial use, modification, fine-tuning, self-hosted deployment. Status: a finished model release, not abandoned — the GitHub repo has had no commits since 2026-02-10 (its last change only announced Qwen-Image-2.0, which has no open weights), but it is not archived, the Apache LICENSE is unchanged and the Qwen-Image and Qwen-Image-2512 weights are still published on Hugging Face (checked 2026-10-21). The newer Qwen-Image-2.1 (September 2026) lives in its own repo and is NOT Apache — research-only licence, see its entry.'
 tags:
 - 🟢 Clean
 - Apache 2.0
@@ -14,4 +14,4 @@ tags:
 list: ai-mine
 added: '2026-05-28'
 category_order: 2
-verified: '2026-10-13'
+verified: '2026-10-21'
