@@ -1,5 +1,12 @@
 {
- "checked": "2026-11-02",
+ "checked": "2026-11-09",
  "since": true,
- "changes": []
+ "changes": [
+  {
+   "slug": "gemini-api",
+   "name": "Google Gemini API / AI Studio",
+   "kind": "redirect",
+   "detail": "https://ai.google.dev/gemini-api/terms now lands on https://aistudio.google.com/docs/terms"
+  }
+ ]
 }
