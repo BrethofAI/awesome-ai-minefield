@@ -1,16 +1,16 @@
 # awesome-ai-minefield
 
-> A curated list of AI models and tools with verified licence terms, quoting the specific clauses that determine commercial usability and data privacy.
+> A curated list of AI tools and models with verified license terms, focusing on data training, commercial use, and output ownership.
 
-The project is a static documentation repository maintained by Brethof AI. It categorizes tools into sections such as Commercial Cloud LLM APIs, Open-Weights LLMs, and Image Generation Models. Each entry includes a verdict pill and direct quotes from the relevant licence or terms of service.
+The project is a static documentation repository maintained by Brethof AI. It categorizes tools into sections such as Commercial Cloud LLM APIs, Open-Weights LLMs, and Image Generation Models. Each entry quotes the specific legal clauses regarding data retention and intellectual property rights.
 
 ## Docs
 
-- [awesome-ai-minefield](https://raw.githubusercontent.com/BrethofAI/awesome-ai-minefield/main/README.md): AI tool licence cards answering data training, commercial use, output ownership, and indemnification questions.
+- [awesome-ai-minefield](https://raw.githubusercontent.com/BrethofAI/awesome-ai-minefield/main/README.md): AI tool licences with quoted clauses on data training, commercial use, output ownership, and indemnification.
 - [Why this list exists](https://github.com/BrethofAI/awesome-ai-minefield/blob/main/README.md#why-this-list-exists): The four critical legal questions for AI tools: data training, commercial use, output ownership, and copyright indemnification.
 - [How to read the cards](https://github.com/BrethofAI/awesome-ai-minefield/blob/main/README.md#how-to-read-the-cards): Verdict pill definitions for clean and conditional entries, explaining why hostile tools are excluded from the list.
 - [Inclusion rules](https://github.com/BrethofAI/awesome-ai-minefield/blob/main/README.md#inclusion-rules): Criteria for listing tools, including direct licence quotes, commercial viability, and maintenance requirements for current terms.
-- [Commercial Cloud LLM APIs](https://github.com/BrethofAI/awesome-ai-minefield/blob/main/README.md#commercial-cloud-llm-apis): Commercial cloud LLM API entries, detailing training defaults, data retention, and output ownership for providers like Anthropic.
+- [Commercial Cloud LLM APIs](https://github.com/BrethofAI/awesome-ai-minefield/blob/main/README.md#commercial-cloud-llm-apis): Cloud LLM API terms regarding data training, commercial use, and output ownership for product integration.
 - [Open-Weights LLMs](https://github.com/BrethofAI/awesome-ai-minefield/blob/main/README.md#open-weights-llms): Open-weights LLM entries, detailing specific licences like MIT and Apache 2.0, and their commercial usage permissions.
 - [Image Generation Models](https://github.com/BrethofAI/awesome-ai-minefield/blob/main/README.md#image-generation-models): Image-generation model weights with Apache 2.0 and vendor community licences, including revenue caps and non-commercial clauses.
 - [AI Coding Assistants](https://github.com/BrethofAI/awesome-ai-minefield/blob/main/README.md#ai-coding-assistants): IDE and desktop coding assistants, account-based licensing terms, and data retention policies for Claude Code.
