@@ -1,5 +1,12 @@
 {
- "checked": "2026-11-16",
+ "checked": "2026-11-23",
  "since": true,
- "changes": []
+ "changes": [
+  {
+   "slug": "gemma-4",
+   "name": "Gemma 4 (Google DeepMind)",
+   "kind": "redirect",
+   "detail": "https://ai.google.dev/gemma/apache_2 now lands on https://gemma.ai/resources/apache-2/"
+  }
+ ]
 }
